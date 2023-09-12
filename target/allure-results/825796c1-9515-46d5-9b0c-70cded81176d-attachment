@@ -1,0 +1,1 @@
+Get text of element By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Offer Rate']/following-sibling::div/p

@@ -1,0 +1,1 @@
+Set text AUTO INTL CHF INDV ADDR CITY on By.xpath: //label[text()='City']/preceding-sibling::input

@@ -1,0 +1,1 @@
+Get text of element By.xpath: //div[text()='Receivable amount (buy):']/following-sibling::div

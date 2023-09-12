@@ -1,0 +1,1 @@
+Clicked on the element By.xpath: //span[@class='dial-code'][text()='+91']/parent::li

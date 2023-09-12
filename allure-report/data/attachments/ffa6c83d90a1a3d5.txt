@@ -1,0 +1,1 @@
+Set text 01234 on By.xpath: //label[text()='Postal/Zip code']/preceding-sibling::input

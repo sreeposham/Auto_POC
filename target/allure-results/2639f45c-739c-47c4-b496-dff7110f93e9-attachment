@@ -1,0 +1,1 @@
+Get text of element By.xpath: //div[contains(@class,'flex-col') and contains(@class,'items-start')]/span[@class='truncate']

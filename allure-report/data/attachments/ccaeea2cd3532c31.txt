@@ -1,0 +1,1 @@
+Set text Canada on By.xpath: //button[text()='Country']/following-sibling::div//input

@@ -1,0 +1,1 @@
+Get text of element By.xpath: //div[text()='Balance due:']/following-sibling::div

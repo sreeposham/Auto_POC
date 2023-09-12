@@ -1,0 +1,1 @@
+Get text of element By.xpath: //span[text()='Total settlement amount (incl. payment fees)']/following-sibling::div

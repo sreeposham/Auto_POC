@@ -1,0 +1,1 @@
+Get text of element By.xpath: //p[text()='Total amount (incl. fee)']/following-sibling::p

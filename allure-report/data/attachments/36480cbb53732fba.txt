@@ -1,0 +1,1 @@
+Clicked on the element By.xpath: //button[contains(@class,'bg-primary text-primary-foreground')][text()='Refresh rate']

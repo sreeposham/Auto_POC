@@ -1,0 +1,1 @@
+Get text of element By.xpath: //p[text()='Settlement due date']/following-sibling::p

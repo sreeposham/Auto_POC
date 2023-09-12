@@ -1,0 +1,1 @@
+Get text of element By.xpath: //div[contains(text(),'Rate:')]/following-sibling::div

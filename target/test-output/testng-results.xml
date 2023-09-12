@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="2" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-05T19:36:26 IST" name="Suite Cucumber Corporate Feature" finished-at="2023-09-05T19:54:31 IST" duration-ms="1084651">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:anhtester.com.runners.OpsTestRunner@7fbd3e75]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-09-05T19:36:26 IST" name="Test Cucumber Corporate Feature" finished-at="2023-09-05T19:54:31 IST" duration-ms="1084651">
+      <class name="anhtester.com.runners.OpsTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:anhtester.com.runners.OpsTestRunner@7fbd3e75]" started-at="2023-09-05T19:36:26 IST" name="setUpClass" finished-at="2023-09-05T19:36:28 IST" duration-ms="1594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@288c8c1a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:anhtester.com.runners.OpsTestRunner@7fbd3e75]" started-at="2023-09-05T19:36:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-05T19:42:57 IST" duration-ms="388857" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the end to end flow of International payments with Multiple recipients for AUD corridor"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["End to End International payment flow with Multiple Recipients - AUD"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:anhtester.com.runners.OpsTestRunner@7fbd3e75]" started-at="2023-09-05T19:42:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-05T19:49:29 IST" duration-ms="392058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the end to end flow of International payments with Multiple recipients for CAD corridor"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["End to End International payment flow with Multiple Recipients - CAD"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:anhtester.com.runners.OpsTestRunner@7fbd3e75]" started-at="2023-09-05T19:49:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-05T19:50:45 IST" duration-ms="76462" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the end to end flow of International payments with Multiple recipients for CHF corridor"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["End to End International payment flow with Multiple Recipients - CHF"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The condition is FALSE. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The condition is FALSE. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at anhtester.com.keywords.WebUI.verifyTrue(WebUI.java:1033)
+at anhtester.com.hubpay.corp.pages.DashboardPage.searchAndVerifyPaymentInTransactionGrid(DashboardPage.java:219)
+at anhtester.com.hubpay.corp.stepdefinitions.DashboardPageStepDefinition.I_search_verify_payment_for_in_the_Transactions_grid(DashboardPageStepDefinition.java:170)
+at ✽.I search and verify payment for "BUSINESS" in the Transactions grid(file:///Users/kanthreddy/wip/Hubpay_QAAutomation/src/test/resources/features/InternationalPayments/InternationalPaymentFlow_MultipleRecipients_CHF.feature:48)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:anhtester.com.runners.OpsTestRunner@7fbd3e75]" started-at="2023-09-05T19:50:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-05T19:51:19 IST" duration-ms="34239" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the end to end flow of International payments with Multiple recipients for EUR corridor"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["End to End International payment flow with Multiple Recipients - EUR"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Element not exist. By.xpath: //div[contains(text(),'Settlement date')]/preceding-sibling::div//select]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Element not exist. By.xpath: //div[contains(text(),'Settlement date')]/preceding-sibling::div//select
+at org.testng.Assert.fail(Assert.java:111)
+at anhtester.com.keywords.WebUI.waitForElementPresent(WebUI.java:2372)
+at anhtester.com.keywords.WebUI.waitForElementVisible(WebUI.java:2280)
+at anhtester.com.hubpay.corp.pages.ExchangePage.selectTenorDateOnExchange(ExchangePage.java:484)
+at anhtester.com.hubpay.corp.stepdefinitions.ExchangePageStepDefinition.I_select_tenor_for_currency_on_exchange_page(ExchangePageStepDefinition.java:86)
+at ✽.I select "2 business days" tenor on Exchange page(file:///Users/kanthreddy/wip/Hubpay_QAAutomation/src/test/resources/features/InternationalPayments/InternationalPaymentFlow_MultipleRecipients_EUR.feature:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:anhtester.com.runners.OpsTestRunner@7fbd3e75]" started-at="2023-09-05T19:51:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-05T19:52:36 IST" duration-ms="76761" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the end to end flow of International payments with Multiple recipients for GBP corridor"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["End to End International payment flow with Multiple Recipients - GBP"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The condition is FALSE. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The condition is FALSE. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at anhtester.com.keywords.WebUI.verifyTrue(WebUI.java:1033)
+at anhtester.com.hubpay.corp.pages.DashboardPage.searchAndVerifyPaymentInTransactionGrid(DashboardPage.java:219)
+at anhtester.com.hubpay.corp.stepdefinitions.DashboardPageStepDefinition.I_search_verify_payment_for_in_the_Transactions_grid(DashboardPageStepDefinition.java:170)
+at ✽.I search and verify payment for "BUSINESS" in the Transactions grid(file:///Users/kanthreddy/wip/Hubpay_QAAutomation/src/test/resources/features/InternationalPayments/InternationalPaymentFlow_MultipleRecipients_GBP.feature:48)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:anhtester.com.runners.OpsTestRunner@7fbd3e75]" started-at="2023-09-05T19:52:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-05T19:53:57 IST" duration-ms="81050" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the end to end flow of International payments with Multiple recipients for NZD corridor"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["End to End International payment flow with Multiple Recipients - NZD"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The condition is FALSE. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The condition is FALSE. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at anhtester.com.keywords.WebUI.verifyTrue(WebUI.java:1033)
+at anhtester.com.hubpay.corp.pages.DashboardPage.searchAndVerifyPaymentInTransactionGrid(DashboardPage.java:219)
+at anhtester.com.hubpay.corp.stepdefinitions.DashboardPageStepDefinition.I_search_verify_payment_for_in_the_Transactions_grid(DashboardPageStepDefinition.java:170)
+at ✽.I search and verify payment for "BUSINESS" in the Transactions grid(file:///Users/kanthreddy/wip/Hubpay_QAAutomation/src/test/resources/features/InternationalPayments/InternationalPaymentFlow_MultipleRecipients_NZD.feature:48)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:anhtester.com.runners.OpsTestRunner@7fbd3e75]" started-at="2023-09-05T19:53:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-05T19:54:23 IST" duration-ms="26012" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the end to end flow of International payments with Multiple recipients for SGD corridor"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["End to End International payment flow with Multiple Recipients - SGD"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.UnsupportedOperationException">
+            <message>
+              <![CDATA[You may not select a disabled option]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.UnsupportedOperationException: You may not select a disabled option
+at org.openqa.selenium.support.ui.Select.assertOptionIsEnabled(Select.java:321)
+at org.openqa.selenium.support.ui.Select.setSelected(Select.java:313)
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:119)
+at anhtester.com.keywords.WebUI.selectOptionByText(WebUI.java:734)
+at anhtester.com.hubpay.corp.pages.ExchangePage.selectTenorDateOnExchange(ExchangePage.java:485)
+at anhtester.com.hubpay.corp.stepdefinitions.ExchangePageStepDefinition.I_select_tenor_for_currency_on_exchange_page(ExchangePageStepDefinition.java:86)
+at ✽.I select "Next business day" tenor on Exchange page(file:///Users/kanthreddy/wip/Hubpay_QAAutomation/src/test/resources/features/InternationalPayments/InternationalPaymentFlow_MultipleRecipients_SGD.feature:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.UnsupportedOperationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:anhtester.com.runners.OpsTestRunner@7fbd3e75]" started-at="2023-09-05T19:54:23 IST" name="tearDownClass" finished-at="2023-09-05T19:54:31 IST" duration-ms="7562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:anhtester.com.runners.OpsTestRunner@7fbd3e75]" started-at="2023-09-05T19:54:31 IST" name="afterSuite" finished-at="2023-09-05T19:54:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- anhtester.com.runners.OpsTestRunner -->
+    </test> <!-- Test Cucumber Corporate Feature -->
+  </suite> <!-- Suite Cucumber Corporate Feature -->
+</testng-results>

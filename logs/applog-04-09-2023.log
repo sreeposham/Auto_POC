@@ -1,0 +1,1139 @@
+[INFO] 04-09-2023 15:11:15 [main] [Utils] - [TestNG] Running:
+  /Users/kanthreddy/Library/Caches/JetBrains/IdeaIE2022.2/temp-testng-customsuite.xml
+
+[INFO] 04-09-2023 15:11:17 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-09-2023 15:11:17 [main] [LogUtils] - {TARGET=local, ownerDetail=xpath&&//div[@id='s2id_created_by']//a[@class='select2-choice']/span[1], menuClients=xpath&&//span[normalize-space()='Clients'], TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, inputPhone=xpath&&//input[@id='phone'], inputClientGroups=xpath&&(//label[normalize-space()='Client groups']/following-sibling::div//input)[1], buttonSaveOnDialog=xpath&&//div[@id='ajaxModalContent']//button[normalize-space()='Save'], spanFirstItemClientGroups=xpath&&//span[@class='select2-match'], inputCountry=xpath&&//input[@id='country'], SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=no, ZIP_FOLDER_NAME=CucumberExtentReports.zip, WAIT_DEFAULT=5, REMOTE_PORT=4444, TELEGRAM_TOKEN=, buttonAddClient=xpath&&//a[normalize-space()='Add client'], URL_CORP=https://corporate-dev.hubpay.ae/auth/signin, labelClientGroups=xpath&&//li[@class='select2-search-choice']/div, URL_OPS=https://ops-portal-dev.hubpay.ae/wallet/, inputState=xpath&&//input[@id='state'], labelOnClientPage=xpath&&//span[normalize-space()='Total clients'], inputPassword=xpath&&//input[@id='password'], EXTENT_REPORT_PDF=PdfReport.pdf, inputAddress=xpath&&//textarea[@id='address'], VIDEO_RECORD=no, inputSearchOwner=xpath&&//div[@id='select2-drop']//input, tabClient=xpath&&//ul[@id='client-tabs']//li[2], labelEmailError=id&&email-error, tabClientInfo=xpath&&//a[normalize-space()='Client info'], PASSWORD=T+wyT5u9cOelDJbBWNgxLw, inputWebsite=xpath&&//input[@id='website'], SCREENSHOT_ALL_STEPS=no, labelAuthentication=xpath&&//div[@role='alert'], EXTENT_REPORT_NAME=ExtentReport, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=30, SCREENSHOT_PASSED_STEPS=no, radioOrganization=xpath&&//input[@id='type_organization'], EXTENT_REPORT_FOLDER=reports/CucumberExtentReports, itemClientFirstRow=xpath&&//table[@id='client-table']//tbody/tr[1]/td[2]/a, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, inputEmail=xpath&&//input[@id='email'], menuDashboard=xpath&&//span[normalize-space()='Dashboard'], REPORT_TITLE=Report | Automation Framework Cucumber TestNG | Anh Tester, AUTHOR=Anh Tester, EXCEL_DATA_FILE_PATH=src/test/resources/testdata/ClientsDataExcel.xlsx, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Cucumber TestNG | Anh Tester, HEADLESS=false, REMOTE_URL=localhost, inputCompanyName=xpath&&//input[@id='company_name'], selectOwner=xpath&&//div[@id='s2id_created_by'], inputCity=xpath&&//input[@id='city'], SCREENSHOT_FAILED_STEPS=yes, TXT_FILE_PATH=src/test/resources/testdata/TxtFileData.txt, selectFirstItemOwner=xpath&&(//div[contains(@id,'select2-result-label')])[1], buttonSignIn=xpath&&//button[normalize-space()='Sign in'], JSON_DATA_FILE_PATH=src/test/resources/config/config.json, inputVat=xpath&&//input[@id='vat_number'], ACTIVE_PAGE_LOADED=true, headerPageClientInfo=xpath&&//form[@id='company-form']//h4, URL_CRM=https://rise.fairsketch.com/signin, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, buttonDynamicXpath=xpath&&//button[normalize-space()='%s'], ZIP_FOLDER_PATH=reports/CucumberExtentReports, inputZip=xpath&&//input[@id='zip'], inputSearch=xpath&&//input[@placeholder='Search'], ZIP_FOLDER=no, menuProjects=xpath&&//span[normalize-space()='Projects']}
+[INFO] 04-09-2023 15:11:17 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-09-2023 15:11:17 [main] [LogUtils] - {TARGET=local, ownerDetail=xpath&&//div[@id='s2id_created_by']//a[@class='select2-choice']/span[1], menuClients=xpath&&//span[normalize-space()='Clients'], TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, inputPhone=xpath&&//input[@id='phone'], inputClientGroups=xpath&&(//label[normalize-space()='Client groups']/following-sibling::div//input)[1], buttonSaveOnDialog=xpath&&//div[@id='ajaxModalContent']//button[normalize-space()='Save'], spanFirstItemClientGroups=xpath&&//span[@class='select2-match'], inputCountry=xpath&&//input[@id='country'], SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=no, ZIP_FOLDER_NAME=CucumberExtentReports.zip, WAIT_DEFAULT=5, REMOTE_PORT=4444, TELEGRAM_TOKEN=, buttonAddClient=xpath&&//a[normalize-space()='Add client'], URL_CORP=https://corporate-dev.hubpay.ae/auth/signin, labelClientGroups=xpath&&//li[@class='select2-search-choice']/div, URL_OPS=https://ops-portal-dev.hubpay.ae/wallet/, inputState=xpath&&//input[@id='state'], labelOnClientPage=xpath&&//span[normalize-space()='Total clients'], inputPassword=xpath&&//input[@id='password'], EXTENT_REPORT_PDF=PdfReport.pdf, inputAddress=xpath&&//textarea[@id='address'], VIDEO_RECORD=no, inputSearchOwner=xpath&&//div[@id='select2-drop']//input, tabClient=xpath&&//ul[@id='client-tabs']//li[2], labelEmailError=id&&email-error, tabClientInfo=xpath&&//a[normalize-space()='Client info'], PASSWORD=T+wyT5u9cOelDJbBWNgxLw, inputWebsite=xpath&&//input[@id='website'], SCREENSHOT_ALL_STEPS=no, labelAuthentication=xpath&&//div[@role='alert'], EXTENT_REPORT_NAME=ExtentReport, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=30, SCREENSHOT_PASSED_STEPS=no, radioOrganization=xpath&&//input[@id='type_organization'], EXTENT_REPORT_FOLDER=reports/CucumberExtentReports, itemClientFirstRow=xpath&&//table[@id='client-table']//tbody/tr[1]/td[2]/a, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, inputEmail=xpath&&//input[@id='email'], menuDashboard=xpath&&//span[normalize-space()='Dashboard'], REPORT_TITLE=Report | Automation Framework Cucumber TestNG | Anh Tester, AUTHOR=Anh Tester, EXCEL_DATA_FILE_PATH=src/test/resources/testdata/ClientsDataExcel.xlsx, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Cucumber TestNG | Anh Tester, HEADLESS=false, REMOTE_URL=localhost, inputCompanyName=xpath&&//input[@id='company_name'], selectOwner=xpath&&//div[@id='s2id_created_by'], inputCity=xpath&&//input[@id='city'], SCREENSHOT_FAILED_STEPS=yes, TXT_FILE_PATH=src/test/resources/testdata/TxtFileData.txt, selectFirstItemOwner=xpath&&(//div[contains(@id,'select2-result-label')])[1], buttonSignIn=xpath&&//button[normalize-space()='Sign in'], JSON_DATA_FILE_PATH=src/test/resources/config/config.json, inputVat=xpath&&//input[@id='vat_number'], ACTIVE_PAGE_LOADED=true, headerPageClientInfo=xpath&&//form[@id='company-form']//h4, URL_CRM=https://rise.fairsketch.com/signin, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, buttonDynamicXpath=xpath&&//button[normalize-space()='%s'], ZIP_FOLDER_PATH=reports/CucumberExtentReports, inputZip=xpath&&//input[@id='zip'], inputSearch=xpath&&//input[@placeholder='Search'], ZIP_FOLDER=no, menuProjects=xpath&&//span[normalize-space()='Projects']}
+[INFO] 04-09-2023 15:11:19 [main] [WebDriverManager] - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+[INFO] 04-09-2023 15:11:19 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/kanthreddy/.cache/selenium/chromedriver/mac-arm64/116.0.5845.96/chromedriver
+[INFO] 04-09-2023 15:11:26 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on mac (e0755e9c920e00c0078862b61b81a63b)
+[INFO] 04-09-2023 15:11:31 [main] [LogUtils] - Open URL: https://corporate-dev.hubpay.ae/auth/signin
+[INFO] 04-09-2023 15:11:31 [main] [LogUtils] - Verify element visible By.cssSelector: input[name='username']
+[INFO] 04-09-2023 15:11:33 [main] [LogUtils] - Set text sreekanth@hubpay.ae on By.cssSelector: input[name='username']
+[INFO] 04-09-2023 15:11:33 [main] [LogUtils] - Verify element visible By.cssSelector: input[name='password']
+[INFO] 04-09-2023 15:11:33 [main] [LogUtils] - Set text Passhub@1 on By.cssSelector: input[name='password']
+[INFO] 04-09-2023 15:11:36 [main] [LogUtils] - Click on element with JS: By.xpath: //button[text()='Next']
+[INFO] 04-09-2023 15:11:40 [main] [LogUtils] - Verify element visible By.xpath: //li[contains(.,'Sign out')]
+[INFO] 04-09-2023 15:11:47 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Dashboard']
+[INFO] 04-09-2023 15:11:47 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Dashboard']
+[INFO] 04-09-2023 15:11:52 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(text(),'AUD')]
+[INFO] 04-09-2023 15:11:52 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(text(),'AUD')]
+[INFO] 04-09-2023 15:11:53 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(text(),'AED')]
+[INFO] 04-09-2023 15:11:53 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(text(),'AED')]
+[INFO] 04-09-2023 15:11:54 [main] [LogUtils] - Verify element visible By.xpath: //a[text()='Exchange']
+[INFO] 04-09-2023 15:11:55 [main] [LogUtils] - Clicked on the element By.xpath: //a[text()='Exchange']
+[INFO] 04-09-2023 15:11:59 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Exchange']
+[INFO] 04-09-2023 15:11:59 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Exchange']
+[INFO] 04-09-2023 15:11:59 [main] [LogUtils] - Verify element visible By.xpath: //p[text()='Convert money between your wallets']
+[INFO] 04-09-2023 15:11:59 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Amount']/preceding-sibling::span[text()='1']/parent::span
+[INFO] 04-09-2023 15:11:59 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Review & confirm']/preceding-sibling::span[text()='2']/parent::span
+[INFO] 04-09-2023 15:11:59 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Amount']
+[INFO] 04-09-2023 15:11:59 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Amount']/following-sibling::p[text()='Select the wallet you want to exchange to and define the amount']
+[INFO] 04-09-2023 15:11:59 [main] [LogUtils] - Verify element visible By.xpath: //button[@role='combobox']/following-sibling::select
+[INFO] 04-09-2023 15:11:59 [main] [LogUtils] - Verify element visible By.xpath: //label[text()='Sell']/following-sibling::div/input[@placeholder='0.00']/following-sibling::div[.='AED']
+[INFO] 04-09-2023 15:11:59 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:11:59 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Amount']/preceding-sibling::span[text()='1']/parent::span
+[INFO] 04-09-2023 15:11:59 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Amount']/preceding-sibling::span[text()='1']/parent::span
+[INFO] 04-09-2023 15:11:59 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Amount']/preceding-sibling::span[text()='1']/parent::span
+[INFO] 04-09-2023 15:11:59 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:11:59 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Review & confirm']/preceding-sibling::span[text()='2']/parent::span
+[INFO] 04-09-2023 15:11:59 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Review & confirm']/preceding-sibling::span[text()='2']/parent::span
+[INFO] 04-09-2023 15:11:59 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Review & confirm']/preceding-sibling::span[text()='2']/parent::span
+[INFO] 04-09-2023 15:11:59 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:12:06 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Enter amount']
+[INFO] 04-09-2023 15:12:06 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Enter amount']
+[INFO] 04-09-2023 15:12:09 [main] [LogUtils] - Clear and Fill 130.00 on By.xpath: //input[@placeholder='Enter amount']
+[INFO] 04-09-2023 15:12:10 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),'Settlement date')]/preceding-sibling::div//select
+[INFO] 04-09-2023 15:12:15 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Live rate']/preceding-sibling::div//div
+[INFO] 04-09-2023 15:12:15 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Live rate']/preceding-sibling::div//div
+[INFO] 04-09-2023 15:12:15 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Live rate']/preceding-sibling::div//div
+[INFO] 04-09-2023 15:12:15 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Live rate']/preceding-sibling::div//div
+[INFO] 04-09-2023 15:12:15 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Live rate']/preceding-sibling::div//div
+[INFO] 04-09-2023 15:12:16 [main] [LogUtils] - Verify text of an element [Contains]: true
+[INFO] 04-09-2023 15:12:16 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Live rate']/preceding-sibling::div//div
+[INFO] 04-09-2023 15:12:16 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Live rate']/preceding-sibling::div//div
+[INFO] 04-09-2023 15:12:16 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Processing time']/preceding-sibling::div
+[INFO] 04-09-2023 15:12:16 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Processing time']/preceding-sibling::div
+[INFO] 04-09-2023 15:12:16 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Processing time']/preceding-sibling::div
+[INFO] 04-09-2023 15:12:16 [main] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 04-09-2023 15:12:16 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Processing time']/preceding-sibling::div
+[INFO] 04-09-2023 15:12:16 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Processing time']/preceding-sibling::div
+[INFO] 04-09-2023 15:12:16 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Processing time']/preceding-sibling::div
+[INFO] 04-09-2023 15:12:16 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Processing time']/preceding-sibling::div
+[INFO] 04-09-2023 15:12:16 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Processing time']/preceding-sibling::div
+[INFO] 04-09-2023 15:12:16 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Processing time']/preceding-sibling::div
+[INFO] 04-09-2023 15:12:16 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Enter amount']
+[INFO] 04-09-2023 15:12:17 [main] [LogUtils] - Verify element visible By.xpath: //button/span
+[INFO] 04-09-2023 15:12:17 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Live rate']/preceding-sibling::div//div
+[INFO] 04-09-2023 15:12:17 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Live rate']/preceding-sibling::div//div
+[INFO] 04-09-2023 15:12:17 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Live rate']/preceding-sibling::div//div
+[INFO] 04-09-2023 15:12:17 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Live rate']/preceding-sibling::div//div
+[INFO] 04-09-2023 15:12:17 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),'Settlement date')]/span
+[INFO] 04-09-2023 15:12:17 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),'Settlement date')]/span
+[INFO] 04-09-2023 15:12:18 [main] [LogUtils] - Click on element with JS: By.xpath: //button[contains(.,'Next')][contains(@class,'text-primary-foreground')]
+[INFO] 04-09-2023 15:12:21 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Review & confirm']
+[INFO] 04-09-2023 15:12:21 [main] [LogUtils] - Verify element visible By.xpath: //button[@id='confirm']
+[INFO] 04-09-2023 15:12:22 [main] [LogUtils] - Clicked on the element By.xpath: //button[@id='confirm']
+[INFO] 04-09-2023 15:12:22 [main] [LogUtils] - Verify element visible By.xpath: //*[@data-icon='arrowRight']/following-sibling::span//div[contains(@class,'items-start')]
+[INFO] 04-09-2023 15:12:22 [main] [LogUtils] - Verify element visible By.xpath: //*[@data-icon='arrowRight']/following-sibling::span//div[contains(@class,'items-start')]
+[INFO] 04-09-2023 15:12:22 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:12:22 [main] [LogUtils] - Verify element visible By.xpath: //*[@data-icon='arrowRight']/preceding-sibling::span//div[contains(@class,'items-start')]
+[INFO] 04-09-2023 15:12:22 [main] [LogUtils] - Verify element visible By.xpath: //*[@data-icon='arrowRight']/preceding-sibling::span//div[contains(@class,'items-start')]
+[INFO] 04-09-2023 15:12:22 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:12:23 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(.,'Processing time')][@class='flex items-center']/preceding-sibling::div
+[INFO] 04-09-2023 15:12:23 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(.,'Processing time')][@class='flex items-center']/preceding-sibling::div
+[INFO] 04-09-2023 15:12:23 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(.,'Processing time')][@class='flex items-center']/preceding-sibling::div
+[INFO] 04-09-2023 15:12:23 [main] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 04-09-2023 15:12:23 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(.,'Processing time')][@class='flex items-center']/preceding-sibling::div
+[INFO] 04-09-2023 15:12:23 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(.,'Processing time')][@class='flex items-center']/preceding-sibling::div
+[INFO] 04-09-2023 15:12:23 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(.,'Processing time')][@class='flex items-center']/preceding-sibling::div
+[INFO] 04-09-2023 15:12:23 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(.,'Processing time')][@class='flex items-center']/preceding-sibling::div
+[INFO] 04-09-2023 15:12:23 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(.,'Processing time')][@class='flex items-center']/preceding-sibling::div
+[INFO] 04-09-2023 15:12:23 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(.,'Processing time')][@class='flex items-center']/preceding-sibling::div
+[INFO] 04-09-2023 15:12:23 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Balance due date']/preceding-sibling::div
+[INFO] 04-09-2023 15:12:24 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Balance due date']/preceding-sibling::div
+[INFO] 04-09-2023 15:12:24 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Balance due date']/preceding-sibling::div
+[INFO] 04-09-2023 15:12:24 [main] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 04-09-2023 15:12:24 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Balance due date']/preceding-sibling::div
+[INFO] 04-09-2023 15:12:24 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Balance due date']/preceding-sibling::div
+[INFO] 04-09-2023 15:12:24 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Balance due date']/preceding-sibling::div
+[INFO] 04-09-2023 15:12:24 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Balance due date']/preceding-sibling::div
+[INFO] 04-09-2023 15:12:24 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Balance due date']/preceding-sibling::div
+[INFO] 04-09-2023 15:12:24 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Balance due date']/preceding-sibling::div
+[INFO] 04-09-2023 15:12:24 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Buy']/following-sibling::div
+[INFO] 04-09-2023 15:12:24 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Buy']/following-sibling::div
+[INFO] 04-09-2023 15:12:24 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Buy']/following-sibling::div
+[INFO] 04-09-2023 15:12:24 [main] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 04-09-2023 15:12:24 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Buy']/following-sibling::div
+[INFO] 04-09-2023 15:12:24 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Buy']/following-sibling::div
+[INFO] 04-09-2023 15:12:24 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Buy']/following-sibling::div
+[INFO] 04-09-2023 15:12:25 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Buy']/following-sibling::div
+[INFO] 04-09-2023 15:12:25 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Buy']/following-sibling::div
+[INFO] 04-09-2023 15:12:25 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Buy']/following-sibling::div
+[INFO] 04-09-2023 15:12:25 [main] [LogUtils] - Verify element visible By.xpath: //button[@id='confirm']/following-sibling::label
+[INFO] 04-09-2023 15:12:25 [main] [LogUtils] - Verify element visible By.xpath: //button[@id='confirm']/following-sibling::label
+[INFO] 04-09-2023 15:12:25 [main] [LogUtils] - Verify element visible By.xpath: //button[@id='confirm']/following-sibling::label
+[INFO] 04-09-2023 15:12:25 [main] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 04-09-2023 15:12:25 [main] [LogUtils] - Verify element visible By.xpath: //button[@id='confirm']/following-sibling::label
+[INFO] 04-09-2023 15:12:25 [main] [LogUtils] - Verify element visible By.xpath: //button[@id='confirm']/following-sibling::label
+[INFO] 04-09-2023 15:12:25 [main] [LogUtils] - Verify element visible By.xpath: //button[@id='confirm']/following-sibling::label
+[INFO] 04-09-2023 15:12:25 [main] [LogUtils] - Verify element visible By.xpath: //button[@id='confirm']/following-sibling::label
+[INFO] 04-09-2023 15:12:25 [main] [LogUtils] - Verify element visible By.xpath: //button[@id='confirm']/following-sibling::label
+[INFO] 04-09-2023 15:12:25 [main] [LogUtils] - Verify element visible By.xpath: //button[@id='confirm']/following-sibling::label
+[INFO] 04-09-2023 15:12:31 [main] [LogUtils] - Verify element visible By.xpath: //button[contains(@class,'bg-primary text-primary-foreground')][text()='Refresh rate']
+[INFO] 04-09-2023 15:12:31 [main] [LogUtils] - Verify element visible By.xpath: //button[contains(@class,'bg-primary text-primary-foreground')][text()='Refresh rate']
+[INFO] 04-09-2023 15:12:31 [main] [LogUtils] - Clicked on the element By.xpath: //button[contains(@class,'bg-primary text-primary-foreground')][text()='Refresh rate']
+[INFO] 04-09-2023 15:12:32 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),' Rate:')]/following-sibling::div
+[INFO] 04-09-2023 15:12:32 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),' Rate:')]/following-sibling::div
+[INFO] 04-09-2023 15:12:32 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),' Rate:')]/following-sibling::div
+[INFO] 04-09-2023 15:12:32 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),' Rate:')]/following-sibling::div
+[INFO] 04-09-2023 15:12:33 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),' Sell:')]/following-sibling::div
+[INFO] 04-09-2023 15:12:33 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),' Sell:')]/following-sibling::div
+[INFO] 04-09-2023 15:12:33 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),' Sell:')]/following-sibling::div
+[INFO] 04-09-2023 15:12:33 [main] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 04-09-2023 15:12:33 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),' Sell:')]/following-sibling::div
+[INFO] 04-09-2023 15:12:33 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),' Sell:')]/following-sibling::div
+[INFO] 04-09-2023 15:12:33 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),' Sell:')]/following-sibling::div
+[INFO] 04-09-2023 15:12:33 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),' Sell:')]/following-sibling::div
+[INFO] 04-09-2023 15:12:34 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),' Sell:')]/following-sibling::div
+[INFO] 04-09-2023 15:12:34 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),' Sell:')]/following-sibling::div
+[INFO] 04-09-2023 15:12:34 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Total payable:']/following-sibling::div
+[INFO] 04-09-2023 15:12:34 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Total payable:']/following-sibling::div
+[INFO] 04-09-2023 15:12:34 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Total payable:']/following-sibling::div
+[INFO] 04-09-2023 15:12:35 [main] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 04-09-2023 15:12:35 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Total payable:']/following-sibling::div
+[INFO] 04-09-2023 15:12:35 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Total payable:']/following-sibling::div
+[INFO] 04-09-2023 15:12:35 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Total payable:']/following-sibling::div
+[INFO] 04-09-2023 15:12:35 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Total payable:']/following-sibling::div
+[INFO] 04-09-2023 15:12:35 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Total payable:']/following-sibling::div
+[INFO] 04-09-2023 15:12:35 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Total payable:']/following-sibling::div
+[INFO] 04-09-2023 15:12:35 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(.,'Available from ') and contains(.,'allet balance:')]/following-sibling::div
+[INFO] 04-09-2023 15:12:35 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(.,'Available from ') and contains(.,'allet balance:')]/following-sibling::div
+[INFO] 04-09-2023 15:12:35 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:12:35 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Balance due:']/following-sibling::div
+[INFO] 04-09-2023 15:12:35 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Balance due:']/following-sibling::div
+[INFO] 04-09-2023 15:12:35 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:12:35 [main] [LogUtils] - Verify element visible By.xpath: //button[.='Confirm Exchange']
+[INFO] 04-09-2023 15:12:36 [main] [LogUtils] - Clicked on the element By.xpath: //button[.='Confirm Exchange']
+[INFO] 04-09-2023 15:12:41 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//h2[text()='Success!']
+[INFO] 04-09-2023 15:12:41 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//h2[text()='Success!']
+[INFO] 04-09-2023 15:12:41 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//h2[text()='Success!']
+[INFO] 04-09-2023 15:12:41 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Please ensure you add sufficient funds to your AED wallet by the settlement date']
+[INFO] 04-09-2023 15:12:41 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Total amount converted']/following-sibling::p
+[INFO] 04-09-2023 15:12:41 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Total amount converted']/following-sibling::p
+[INFO] 04-09-2023 15:12:41 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Total amount converted']/following-sibling::p
+[INFO] 04-09-2023 15:12:42 [main] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 04-09-2023 15:12:42 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Total amount converted']/following-sibling::p
+[INFO] 04-09-2023 15:12:42 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Total amount converted']/following-sibling::p
+[INFO] 04-09-2023 15:12:42 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Total amount converted']/following-sibling::p
+[INFO] 04-09-2023 15:12:42 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Total amount converted']/following-sibling::p
+[INFO] 04-09-2023 15:12:42 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Total amount converted']/following-sibling::p
+[INFO] 04-09-2023 15:12:42 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Total amount converted']/following-sibling::p
+[INFO] 04-09-2023 15:12:42 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Settlement due date']/following-sibling::p
+[INFO] 04-09-2023 15:12:42 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Settlement due date']/following-sibling::p
+[INFO] 04-09-2023 15:12:43 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Settlement due date']/following-sibling::p
+[INFO] 04-09-2023 15:12:43 [main] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 04-09-2023 15:12:43 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Settlement due date']/following-sibling::p
+[INFO] 04-09-2023 15:12:43 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Settlement due date']/following-sibling::p
+[INFO] 04-09-2023 15:12:43 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Settlement due date']/following-sibling::p
+[INFO] 04-09-2023 15:12:43 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Settlement due date']/following-sibling::p
+[INFO] 04-09-2023 15:12:43 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Settlement due date']/following-sibling::p
+[INFO] 04-09-2023 15:12:43 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Settlement due date']/following-sibling::p
+[INFO] 04-09-2023 15:12:43 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Transaction reference']/following-sibling::p
+[INFO] 04-09-2023 15:12:43 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Transaction reference']/following-sibling::p
+[INFO] 04-09-2023 15:12:43 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:12:43 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Transaction reference']/following-sibling::p
+[INFO] 04-09-2023 15:12:43 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Transaction reference']/following-sibling::p
+[INFO] 04-09-2023 15:12:43 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//button[text()='Done']
+[INFO] 04-09-2023 15:12:44 [main] [LogUtils] - Clicked on the element By.xpath: //div[@role='dialog']//button[text()='Done']
+[INFO] 04-09-2023 15:12:47 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Dashboard']
+[INFO] 04-09-2023 15:12:47 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Dashboard']
+[INFO] 04-09-2023 15:12:47 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Transactions']
+[INFO] 04-09-2023 15:12:48 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Transactions']
+[INFO] 04-09-2023 15:12:49 [main] [LogUtils] - Verify element visible By.xpath: //td[.='AF-KI63-XGPH']/parent::tr
+[INFO] 04-09-2023 15:12:49 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:12:49 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:12:49 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:12:49 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:12:49 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:12:49 [main] [LogUtils] - Verify element visible By.xpath: //td[.='AF-KI63-XGPH']/parent::tr
+[INFO] 04-09-2023 15:12:50 [main] [LogUtils] - Clicked on the element By.xpath: //td[.='AF-KI63-XGPH']/parent::tr
+[INFO] 04-09-2023 15:12:51 [main] [LogUtils] - Verify element visible By.xpath: //h2[contains(@id,'radix-')]/h1
+[INFO] 04-09-2023 15:12:51 [main] [LogUtils] - Verify element visible By.xpath: //h1[contains(text(),'receipt')]/following-sibling::*
+[INFO] 04-09-2023 15:12:51 [main] [LogUtils] - Verify element visible By.xpath: //h1[contains(text(),'receipt')]/following-sibling::*
+[INFO] 04-09-2023 15:12:51 [main] [LogUtils] - Verify element visible By.xpath: //h1[contains(text(),'receipt')]/following-sibling::*
+[INFO] 04-09-2023 15:12:51 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:12:51 [main] [LogUtils] - Verify element visible By.xpath: //h1[contains(text(),'receipt')]/following-sibling::*
+[INFO] 04-09-2023 15:12:51 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:12:52 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Exchange receipt']/parent::h2/following-sibling::p
+[INFO] 04-09-2023 15:12:52 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Exchange receipt']/parent::h2/following-sibling::p
+[INFO] 04-09-2023 15:12:52 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Exchange receipt']/parent::h2/following-sibling::p
+[INFO] 04-09-2023 15:12:52 [main] [LogUtils] - Verify text of an element [Contains]: true
+[INFO] 04-09-2023 15:12:52 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Exchange receipt']/parent::h2/following-sibling::p
+[INFO] 04-09-2023 15:12:52 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Exchange receipt']/parent::h2/following-sibling::p
+[INFO] 04-09-2023 15:12:52 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Settlement due date']/following-sibling::div
+[INFO] 04-09-2023 15:12:52 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Settlement due date']/following-sibling::div
+[INFO] 04-09-2023 15:12:52 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:12:52 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='From']/following-sibling::div
+[INFO] 04-09-2023 15:12:52 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='From']/following-sibling::div
+[INFO] 04-09-2023 15:12:52 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:12:52 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='To']/following-sibling::div
+[INFO] 04-09-2023 15:12:52 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='To']/following-sibling::div
+[INFO] 04-09-2023 15:12:52 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:12:52 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Exchange rate']/following-sibling::div
+[INFO] 04-09-2023 15:12:52 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:12:53 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Transaction reference']/following-sibling::div
+[INFO] 04-09-2023 15:12:53 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Transaction reference']/following-sibling::div
+[INFO] 04-09-2023 15:12:53 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:12:53 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Total funds due']/following-sibling::div
+[INFO] 04-09-2023 15:12:53 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Total funds due']/following-sibling::div
+[INFO] 04-09-2023 15:12:53 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:12:53 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Download']
+[INFO] 04-09-2023 15:12:53 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Close']/parent::button
+[INFO] 04-09-2023 15:12:53 [main] [LogUtils] - Clicked on the element By.xpath: //span[text()='Close']/parent::button
+[INFO] 04-09-2023 15:12:53 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Wallets']
+[INFO] 04-09-2023 15:12:54 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Wallets']
+[INFO] 04-09-2023 15:12:54 [main] [LogUtils] - Verify element visible By.xpath: //p[text()='Available funds']/following-sibling::p[contains(text(),'AUD')]
+[INFO] 04-09-2023 15:12:54 [main] [LogUtils] - Verify element visible By.xpath: //p[text()='Available funds']/following-sibling::p[contains(text(),'AUD')]
+[INFO] 04-09-2023 15:12:54 [main] [LogUtils] - Verify TRUE: false
+[ERROR] 04-09-2023 15:12:56 [main] [LifecycleNotifier] - Could not invoke listener method
+org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/bz/l4ntdftn1jd...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51715}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51715/devtoo..., se:cdpVersion: 116.0.5845.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:316) ~[selenium-remote-driver-4.10.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.openqa.selenium.support.ThreadGuard$WebDriverInvocationHandler.invokeUnderlying(ThreadGuard.java:99) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ThreadGuard$WebDriverInvocationHandler.invoke(ThreadGuard.java:91) ~[selenium-support-4.10.0.jar:?]
+	at com.sun.proxy.$Proxy48.getScreenshotAs(Unknown Source) ~[?:?]
+	at anhtester.com.listeners.AllureListener.beforeTestStop(AllureListener.java:43) ~[test-classes/:?]
+	at io.qameta.allure.listener.LifecycleNotifier.lambda$runSafely$0(LifecycleNotifier.java:211) ~[allure-java-commons-2.22.1.jar:2.22.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
+	at io.qameta.allure.listener.LifecycleNotifier.runSafely(LifecycleNotifier.java:209) ~[allure-java-commons-2.22.1.jar:2.22.1]
+	at io.qameta.allure.listener.LifecycleNotifier.beforeTestStop(LifecycleNotifier.java:88) ~[allure-java-commons-2.22.1.jar:2.22.1]
+	at io.qameta.allure.AllureLifecycle.stopTestCase(AllureLifecycle.java:420) ~[allure-java-commons-2.22.1.jar:2.22.1]
+	at io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm.handleTestCaseFinished(AllureCucumber7Jvm.java:197) ~[allure-cucumber7-jvm-2.22.1.jar:2.22.1]
+	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51) ~[cucumber-core-7.12.1.jar:7.12.1]
+	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12) ~[cucumber-core-7.12.1.jar:7.12.1]
+	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47) ~[cucumber-core-7.12.1.jar:7.12.1]
+	at io.cucumber.core.runtime.ThreadLocalRunnerSupplier$LocalEventBus.send(ThreadLocalRunnerSupplier.java:62) ~[cucumber-core-7.12.1.jar:7.12.1]
+	at io.cucumber.core.runner.TestCase.emitTestCaseFinished(TestCase.java:219) ~[cucumber-core-7.12.1.jar:7.12.1]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:98) ~[cucumber-core-7.12.1.jar:7.12.1]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.12.1.jar:7.12.1]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.12.1.jar:7.12.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137) ~[cucumber-core-7.12.1.jar:7.12.1]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.12.1.jar:7.12.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137) ~[cucumber-core-7.12.1.jar:7.12.1]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.12.1.jar:7.12.1]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.12.1.jar:7.12.1]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
+[ERROR] 04-09-2023 15:12:56 [main] [LifecycleNotifier] - Could not invoke listener method
+org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/bz/l4ntdftn1jd...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51715}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51715/devtoo..., se:cdpVersion: 116.0.5845.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:316) ~[selenium-remote-driver-4.10.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.openqa.selenium.support.ThreadGuard$WebDriverInvocationHandler.invokeUnderlying(ThreadGuard.java:99) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ThreadGuard$WebDriverInvocationHandler.invoke(ThreadGuard.java:91) ~[selenium-support-4.10.0.jar:?]
+	at com.sun.proxy.$Proxy48.getScreenshotAs(Unknown Source) ~[?:?]
+	at anhtester.com.listeners.AllureListener.beforeTestStop(AllureListener.java:43) ~[test-classes/:?]
+	at io.qameta.allure.listener.LifecycleNotifier.lambda$runSafely$0(LifecycleNotifier.java:211) ~[allure-java-commons-2.22.1.jar:2.22.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
+	at io.qameta.allure.listener.LifecycleNotifier.runSafely(LifecycleNotifier.java:209) ~[allure-java-commons-2.22.1.jar:2.22.1]
+	at io.qameta.allure.listener.LifecycleNotifier.beforeTestStop(LifecycleNotifier.java:88) ~[allure-java-commons-2.22.1.jar:2.22.1]
+	at io.qameta.allure.AllureLifecycle.stopTestCase(AllureLifecycle.java:420) ~[allure-java-commons-2.22.1.jar:2.22.1]
+	at io.qameta.allure.testng.AllureTestNg.stopTestCase(AllureTestNg.java:376) ~[allure-testng-2.22.1.jar:2.22.1]
+	at io.qameta.allure.testng.AllureTestNg.onTestFailure(AllureTestNg.java:370) ~[allure-testng-2.22.1.jar:2.22.1]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:108) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:262) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:751) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
+[INFO] 04-09-2023 15:18:39 [main] [Utils] - [TestNG] Running:
+  /Users/kanthreddy/Library/Caches/JetBrains/IdeaIE2022.2/temp-testng-customsuite.xml
+
+[INFO] 04-09-2023 15:18:40 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-09-2023 15:18:40 [main] [LogUtils] - {TARGET=local, ownerDetail=xpath&&//div[@id='s2id_created_by']//a[@class='select2-choice']/span[1], menuClients=xpath&&//span[normalize-space()='Clients'], TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, inputPhone=xpath&&//input[@id='phone'], inputClientGroups=xpath&&(//label[normalize-space()='Client groups']/following-sibling::div//input)[1], buttonSaveOnDialog=xpath&&//div[@id='ajaxModalContent']//button[normalize-space()='Save'], spanFirstItemClientGroups=xpath&&//span[@class='select2-match'], inputCountry=xpath&&//input[@id='country'], SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=no, ZIP_FOLDER_NAME=CucumberExtentReports.zip, WAIT_DEFAULT=5, REMOTE_PORT=4444, TELEGRAM_TOKEN=, buttonAddClient=xpath&&//a[normalize-space()='Add client'], URL_CORP=https://corporate-dev.hubpay.ae/auth/signin, labelClientGroups=xpath&&//li[@class='select2-search-choice']/div, URL_OPS=https://ops-portal-dev.hubpay.ae/wallet/, inputState=xpath&&//input[@id='state'], labelOnClientPage=xpath&&//span[normalize-space()='Total clients'], inputPassword=xpath&&//input[@id='password'], EXTENT_REPORT_PDF=PdfReport.pdf, inputAddress=xpath&&//textarea[@id='address'], VIDEO_RECORD=no, inputSearchOwner=xpath&&//div[@id='select2-drop']//input, tabClient=xpath&&//ul[@id='client-tabs']//li[2], labelEmailError=id&&email-error, tabClientInfo=xpath&&//a[normalize-space()='Client info'], PASSWORD=T+wyT5u9cOelDJbBWNgxLw, inputWebsite=xpath&&//input[@id='website'], SCREENSHOT_ALL_STEPS=no, labelAuthentication=xpath&&//div[@role='alert'], EXTENT_REPORT_NAME=ExtentReport, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=30, SCREENSHOT_PASSED_STEPS=no, radioOrganization=xpath&&//input[@id='type_organization'], EXTENT_REPORT_FOLDER=reports/CucumberExtentReports, itemClientFirstRow=xpath&&//table[@id='client-table']//tbody/tr[1]/td[2]/a, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, inputEmail=xpath&&//input[@id='email'], menuDashboard=xpath&&//span[normalize-space()='Dashboard'], REPORT_TITLE=Report | Automation Framework Cucumber TestNG | Anh Tester, AUTHOR=Anh Tester, EXCEL_DATA_FILE_PATH=src/test/resources/testdata/ClientsDataExcel.xlsx, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Cucumber TestNG | Anh Tester, HEADLESS=false, REMOTE_URL=localhost, inputCompanyName=xpath&&//input[@id='company_name'], selectOwner=xpath&&//div[@id='s2id_created_by'], inputCity=xpath&&//input[@id='city'], SCREENSHOT_FAILED_STEPS=yes, TXT_FILE_PATH=src/test/resources/testdata/TxtFileData.txt, selectFirstItemOwner=xpath&&(//div[contains(@id,'select2-result-label')])[1], buttonSignIn=xpath&&//button[normalize-space()='Sign in'], JSON_DATA_FILE_PATH=src/test/resources/config/config.json, inputVat=xpath&&//input[@id='vat_number'], ACTIVE_PAGE_LOADED=true, headerPageClientInfo=xpath&&//form[@id='company-form']//h4, URL_CRM=https://rise.fairsketch.com/signin, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, buttonDynamicXpath=xpath&&//button[normalize-space()='%s'], ZIP_FOLDER_PATH=reports/CucumberExtentReports, inputZip=xpath&&//input[@id='zip'], inputSearch=xpath&&//input[@placeholder='Search'], ZIP_FOLDER=no, menuProjects=xpath&&//span[normalize-space()='Projects']}
+[INFO] 04-09-2023 15:18:40 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-09-2023 15:18:40 [main] [LogUtils] - {TARGET=local, ownerDetail=xpath&&//div[@id='s2id_created_by']//a[@class='select2-choice']/span[1], menuClients=xpath&&//span[normalize-space()='Clients'], TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, inputPhone=xpath&&//input[@id='phone'], inputClientGroups=xpath&&(//label[normalize-space()='Client groups']/following-sibling::div//input)[1], buttonSaveOnDialog=xpath&&//div[@id='ajaxModalContent']//button[normalize-space()='Save'], spanFirstItemClientGroups=xpath&&//span[@class='select2-match'], inputCountry=xpath&&//input[@id='country'], SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=no, ZIP_FOLDER_NAME=CucumberExtentReports.zip, WAIT_DEFAULT=5, REMOTE_PORT=4444, TELEGRAM_TOKEN=, buttonAddClient=xpath&&//a[normalize-space()='Add client'], URL_CORP=https://corporate-dev.hubpay.ae/auth/signin, labelClientGroups=xpath&&//li[@class='select2-search-choice']/div, URL_OPS=https://ops-portal-dev.hubpay.ae/wallet/, inputState=xpath&&//input[@id='state'], labelOnClientPage=xpath&&//span[normalize-space()='Total clients'], inputPassword=xpath&&//input[@id='password'], EXTENT_REPORT_PDF=PdfReport.pdf, inputAddress=xpath&&//textarea[@id='address'], VIDEO_RECORD=no, inputSearchOwner=xpath&&//div[@id='select2-drop']//input, tabClient=xpath&&//ul[@id='client-tabs']//li[2], labelEmailError=id&&email-error, tabClientInfo=xpath&&//a[normalize-space()='Client info'], PASSWORD=T+wyT5u9cOelDJbBWNgxLw, inputWebsite=xpath&&//input[@id='website'], SCREENSHOT_ALL_STEPS=no, labelAuthentication=xpath&&//div[@role='alert'], EXTENT_REPORT_NAME=ExtentReport, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=30, SCREENSHOT_PASSED_STEPS=no, radioOrganization=xpath&&//input[@id='type_organization'], EXTENT_REPORT_FOLDER=reports/CucumberExtentReports, itemClientFirstRow=xpath&&//table[@id='client-table']//tbody/tr[1]/td[2]/a, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, inputEmail=xpath&&//input[@id='email'], menuDashboard=xpath&&//span[normalize-space()='Dashboard'], REPORT_TITLE=Report | Automation Framework Cucumber TestNG | Anh Tester, AUTHOR=Anh Tester, EXCEL_DATA_FILE_PATH=src/test/resources/testdata/ClientsDataExcel.xlsx, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Cucumber TestNG | Anh Tester, HEADLESS=false, REMOTE_URL=localhost, inputCompanyName=xpath&&//input[@id='company_name'], selectOwner=xpath&&//div[@id='s2id_created_by'], inputCity=xpath&&//input[@id='city'], SCREENSHOT_FAILED_STEPS=yes, TXT_FILE_PATH=src/test/resources/testdata/TxtFileData.txt, selectFirstItemOwner=xpath&&(//div[contains(@id,'select2-result-label')])[1], buttonSignIn=xpath&&//button[normalize-space()='Sign in'], JSON_DATA_FILE_PATH=src/test/resources/config/config.json, inputVat=xpath&&//input[@id='vat_number'], ACTIVE_PAGE_LOADED=true, headerPageClientInfo=xpath&&//form[@id='company-form']//h4, URL_CRM=https://rise.fairsketch.com/signin, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, buttonDynamicXpath=xpath&&//button[normalize-space()='%s'], ZIP_FOLDER_PATH=reports/CucumberExtentReports, inputZip=xpath&&//input[@id='zip'], inputSearch=xpath&&//input[@placeholder='Search'], ZIP_FOLDER=no, menuProjects=xpath&&//span[normalize-space()='Projects']}
+[INFO] 04-09-2023 15:18:41 [main] [WebDriverManager] - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+[INFO] 04-09-2023 15:18:41 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/kanthreddy/.cache/selenium/chromedriver/mac-arm64/116.0.5845.96/chromedriver
+[INFO] 04-09-2023 15:18:47 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on mac (5c389a9c3c529036fb658bec0a668c15)
+[INFO] 04-09-2023 15:18:51 [main] [LogUtils] - Open URL: https://corporate-dev.hubpay.ae/auth/signin
+[INFO] 04-09-2023 15:18:51 [main] [LogUtils] - Verify element visible By.cssSelector: input[name='username']
+[INFO] 04-09-2023 15:18:53 [main] [LogUtils] - Set text sreekanth@hubpay.ae on By.cssSelector: input[name='username']
+[INFO] 04-09-2023 15:18:53 [main] [LogUtils] - Verify element visible By.cssSelector: input[name='password']
+[INFO] 04-09-2023 15:18:53 [main] [LogUtils] - Set text Passhub@1 on By.cssSelector: input[name='password']
+[INFO] 04-09-2023 15:18:56 [main] [LogUtils] - Click on element with JS: By.xpath: //button[text()='Next']
+[INFO] 04-09-2023 15:19:00 [main] [LogUtils] - Verify element visible By.xpath: //li[contains(.,'Sign out')]
+[INFO] 04-09-2023 15:19:07 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Dashboard']
+[INFO] 04-09-2023 15:19:07 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Dashboard']
+[INFO] 04-09-2023 15:19:11 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(text(),'AED')]
+[INFO] 04-09-2023 15:19:11 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(text(),'AED')]
+[INFO] 04-09-2023 15:19:12 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(text(),'AUD')]
+[INFO] 04-09-2023 15:19:12 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(text(),'AUD')]
+[INFO] 04-09-2023 15:19:13 [main] [LogUtils] - Verify element visible By.xpath: //a[text()='Exchange']
+[INFO] 04-09-2023 15:19:14 [main] [LogUtils] - Clicked on the element By.xpath: //a[text()='Exchange']
+[INFO] 04-09-2023 15:19:17 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Exchange']
+[INFO] 04-09-2023 15:19:17 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Exchange']
+[INFO] 04-09-2023 15:19:17 [main] [LogUtils] - Verify element visible By.xpath: //p[text()='Convert money between your wallets']
+[INFO] 04-09-2023 15:19:17 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Amount']/preceding-sibling::span[text()='1']/parent::span
+[INFO] 04-09-2023 15:19:17 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Review & confirm']/preceding-sibling::span[text()='2']/parent::span
+[INFO] 04-09-2023 15:19:17 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Amount']
+[INFO] 04-09-2023 15:19:18 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Amount']/following-sibling::p[text()='Select the wallet you want to exchange to and define the amount']
+[INFO] 04-09-2023 15:19:18 [main] [LogUtils] - Verify element visible By.xpath: //button[@role='combobox']/following-sibling::select
+[INFO] 04-09-2023 15:19:18 [main] [LogUtils] - Verify element visible By.xpath: //label[text()='Sell']/following-sibling::div/input[@placeholder='0.00']/following-sibling::div[.='AED']
+[INFO] 04-09-2023 15:19:18 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:19:18 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Amount']/preceding-sibling::span[text()='1']/parent::span
+[INFO] 04-09-2023 15:19:18 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Amount']/preceding-sibling::span[text()='1']/parent::span
+[INFO] 04-09-2023 15:19:18 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Amount']/preceding-sibling::span[text()='1']/parent::span
+[INFO] 04-09-2023 15:19:18 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:19:18 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Review & confirm']/preceding-sibling::span[text()='2']/parent::span
+[INFO] 04-09-2023 15:19:18 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Review & confirm']/preceding-sibling::span[text()='2']/parent::span
+[INFO] 04-09-2023 15:19:18 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Review & confirm']/preceding-sibling::span[text()='2']/parent::span
+[INFO] 04-09-2023 15:19:18 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:19:24 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Enter amount']
+[INFO] 04-09-2023 15:19:24 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Enter amount']
+[INFO] 04-09-2023 15:19:27 [main] [LogUtils] - Clear and Fill 130.00 on By.xpath: //input[@placeholder='Enter amount']
+[INFO] 04-09-2023 15:19:28 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),'Settlement date')]/preceding-sibling::div//select
+[INFO] 04-09-2023 15:19:31 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Live rate']/preceding-sibling::div//div
+[INFO] 04-09-2023 15:19:31 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Live rate']/preceding-sibling::div//div
+[INFO] 04-09-2023 15:19:31 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Live rate']/preceding-sibling::div//div
+[INFO] 04-09-2023 15:19:31 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Live rate']/preceding-sibling::div//div
+[INFO] 04-09-2023 15:19:31 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Live rate']/preceding-sibling::div//div
+[INFO] 04-09-2023 15:19:31 [main] [LogUtils] - Verify text of an element [Contains]: true
+[INFO] 04-09-2023 15:19:31 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Live rate']/preceding-sibling::div//div
+[INFO] 04-09-2023 15:19:32 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Live rate']/preceding-sibling::div//div
+[INFO] 04-09-2023 15:19:32 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Processing time']/preceding-sibling::div
+[INFO] 04-09-2023 15:19:32 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Processing time']/preceding-sibling::div
+[INFO] 04-09-2023 15:19:32 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Processing time']/preceding-sibling::div
+[INFO] 04-09-2023 15:19:32 [main] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 04-09-2023 15:19:32 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Processing time']/preceding-sibling::div
+[INFO] 04-09-2023 15:19:32 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Processing time']/preceding-sibling::div
+[INFO] 04-09-2023 15:19:32 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Processing time']/preceding-sibling::div
+[INFO] 04-09-2023 15:19:32 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Processing time']/preceding-sibling::div
+[INFO] 04-09-2023 15:19:32 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Processing time']/preceding-sibling::div
+[INFO] 04-09-2023 15:19:32 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Processing time']/preceding-sibling::div
+[INFO] 04-09-2023 15:19:32 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Enter amount']
+[INFO] 04-09-2023 15:19:32 [main] [LogUtils] - Verify element visible By.xpath: //button/span
+[INFO] 04-09-2023 15:19:32 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Live rate']/preceding-sibling::div//div
+[INFO] 04-09-2023 15:19:33 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Live rate']/preceding-sibling::div//div
+[INFO] 04-09-2023 15:19:33 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Live rate']/preceding-sibling::div//div
+[INFO] 04-09-2023 15:19:33 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Live rate']/preceding-sibling::div//div
+[INFO] 04-09-2023 15:19:33 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),'Settlement date')]/span
+[INFO] 04-09-2023 15:19:33 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),'Settlement date')]/span
+[INFO] 04-09-2023 15:19:33 [main] [LogUtils] - Click on element with JS: By.xpath: //button[contains(.,'Next')][contains(@class,'text-primary-foreground')]
+[INFO] 04-09-2023 15:19:37 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Review & confirm']
+[INFO] 04-09-2023 15:19:37 [main] [LogUtils] - Verify element visible By.xpath: //button[@id='confirm']
+[INFO] 04-09-2023 15:19:38 [main] [LogUtils] - Clicked on the element By.xpath: //button[@id='confirm']
+[INFO] 04-09-2023 15:19:38 [main] [LogUtils] - Verify element visible By.xpath: //*[@data-icon='arrowRight']/following-sibling::span//div[contains(@class,'items-start')]
+[INFO] 04-09-2023 15:19:38 [main] [LogUtils] - Verify element visible By.xpath: //*[@data-icon='arrowRight']/following-sibling::span//div[contains(@class,'items-start')]
+[INFO] 04-09-2023 15:19:38 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:19:38 [main] [LogUtils] - Verify element visible By.xpath: //*[@data-icon='arrowRight']/preceding-sibling::span//div[contains(@class,'items-start')]
+[INFO] 04-09-2023 15:19:38 [main] [LogUtils] - Verify element visible By.xpath: //*[@data-icon='arrowRight']/preceding-sibling::span//div[contains(@class,'items-start')]
+[INFO] 04-09-2023 15:19:38 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:19:38 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(.,'Processing time')][@class='flex items-center']/preceding-sibling::div
+[INFO] 04-09-2023 15:19:38 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(.,'Processing time')][@class='flex items-center']/preceding-sibling::div
+[INFO] 04-09-2023 15:19:38 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(.,'Processing time')][@class='flex items-center']/preceding-sibling::div
+[INFO] 04-09-2023 15:19:38 [main] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 04-09-2023 15:19:38 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(.,'Processing time')][@class='flex items-center']/preceding-sibling::div
+[INFO] 04-09-2023 15:19:38 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(.,'Processing time')][@class='flex items-center']/preceding-sibling::div
+[INFO] 04-09-2023 15:19:38 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(.,'Processing time')][@class='flex items-center']/preceding-sibling::div
+[INFO] 04-09-2023 15:19:39 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(.,'Processing time')][@class='flex items-center']/preceding-sibling::div
+[INFO] 04-09-2023 15:19:39 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(.,'Processing time')][@class='flex items-center']/preceding-sibling::div
+[INFO] 04-09-2023 15:19:39 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(.,'Processing time')][@class='flex items-center']/preceding-sibling::div
+[INFO] 04-09-2023 15:19:39 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Balance due date']/preceding-sibling::div
+[INFO] 04-09-2023 15:19:39 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Balance due date']/preceding-sibling::div
+[INFO] 04-09-2023 15:19:39 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Balance due date']/preceding-sibling::div
+[INFO] 04-09-2023 15:19:39 [main] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 04-09-2023 15:19:39 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Balance due date']/preceding-sibling::div
+[INFO] 04-09-2023 15:19:39 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Balance due date']/preceding-sibling::div
+[INFO] 04-09-2023 15:19:39 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Balance due date']/preceding-sibling::div
+[INFO] 04-09-2023 15:19:39 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Balance due date']/preceding-sibling::div
+[INFO] 04-09-2023 15:19:39 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Balance due date']/preceding-sibling::div
+[INFO] 04-09-2023 15:19:39 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Balance due date']/preceding-sibling::div
+[INFO] 04-09-2023 15:19:40 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Buy']/following-sibling::div
+[INFO] 04-09-2023 15:19:40 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Buy']/following-sibling::div
+[INFO] 04-09-2023 15:19:40 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Buy']/following-sibling::div
+[INFO] 04-09-2023 15:19:40 [main] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 04-09-2023 15:19:40 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Buy']/following-sibling::div
+[INFO] 04-09-2023 15:19:40 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Buy']/following-sibling::div
+[INFO] 04-09-2023 15:19:40 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Buy']/following-sibling::div
+[INFO] 04-09-2023 15:19:40 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Buy']/following-sibling::div
+[INFO] 04-09-2023 15:19:40 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Buy']/following-sibling::div
+[INFO] 04-09-2023 15:19:40 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Buy']/following-sibling::div
+[INFO] 04-09-2023 15:19:40 [main] [LogUtils] - Verify element visible By.xpath: //button[@id='confirm']/following-sibling::label
+[INFO] 04-09-2023 15:19:40 [main] [LogUtils] - Verify element visible By.xpath: //button[@id='confirm']/following-sibling::label
+[INFO] 04-09-2023 15:19:40 [main] [LogUtils] - Verify element visible By.xpath: //button[@id='confirm']/following-sibling::label
+[INFO] 04-09-2023 15:19:40 [main] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 04-09-2023 15:19:41 [main] [LogUtils] - Verify element visible By.xpath: //button[@id='confirm']/following-sibling::label
+[INFO] 04-09-2023 15:19:41 [main] [LogUtils] - Verify element visible By.xpath: //button[@id='confirm']/following-sibling::label
+[INFO] 04-09-2023 15:19:41 [main] [LogUtils] - Verify element visible By.xpath: //button[@id='confirm']/following-sibling::label
+[INFO] 04-09-2023 15:19:41 [main] [LogUtils] - Verify element visible By.xpath: //button[@id='confirm']/following-sibling::label
+[INFO] 04-09-2023 15:19:41 [main] [LogUtils] - Verify element visible By.xpath: //button[@id='confirm']/following-sibling::label
+[INFO] 04-09-2023 15:19:41 [main] [LogUtils] - Verify element visible By.xpath: //button[@id='confirm']/following-sibling::label
+[INFO] 04-09-2023 15:19:48 [main] [LogUtils] - Verify element visible By.xpath: //button[contains(@class,'bg-primary text-primary-foreground')][text()='Refresh rate']
+[INFO] 04-09-2023 15:19:48 [main] [LogUtils] - Verify element visible By.xpath: //button[contains(@class,'bg-primary text-primary-foreground')][text()='Refresh rate']
+[INFO] 04-09-2023 15:19:48 [main] [LogUtils] - Clicked on the element By.xpath: //button[contains(@class,'bg-primary text-primary-foreground')][text()='Refresh rate']
+[INFO] 04-09-2023 15:19:49 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),' Rate:')]/following-sibling::div
+[INFO] 04-09-2023 15:19:49 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),' Rate:')]/following-sibling::div
+[INFO] 04-09-2023 15:19:49 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),' Rate:')]/following-sibling::div
+[INFO] 04-09-2023 15:19:49 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),' Rate:')]/following-sibling::div
+[INFO] 04-09-2023 15:19:49 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),' Sell:')]/following-sibling::div
+[INFO] 04-09-2023 15:19:49 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),' Sell:')]/following-sibling::div
+[INFO] 04-09-2023 15:19:49 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),' Sell:')]/following-sibling::div
+[INFO] 04-09-2023 15:19:50 [main] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 04-09-2023 15:19:50 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),' Sell:')]/following-sibling::div
+[INFO] 04-09-2023 15:19:50 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),' Sell:')]/following-sibling::div
+[INFO] 04-09-2023 15:19:50 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),' Sell:')]/following-sibling::div
+[INFO] 04-09-2023 15:19:50 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),' Sell:')]/following-sibling::div
+[INFO] 04-09-2023 15:19:50 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),' Sell:')]/following-sibling::div
+[INFO] 04-09-2023 15:19:50 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(text(),' Sell:')]/following-sibling::div
+[INFO] 04-09-2023 15:19:50 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Total payable:']/following-sibling::div
+[INFO] 04-09-2023 15:19:50 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Total payable:']/following-sibling::div
+[INFO] 04-09-2023 15:19:50 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Total payable:']/following-sibling::div
+[INFO] 04-09-2023 15:19:50 [main] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 04-09-2023 15:19:50 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Total payable:']/following-sibling::div
+[INFO] 04-09-2023 15:19:50 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Total payable:']/following-sibling::div
+[INFO] 04-09-2023 15:19:50 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Total payable:']/following-sibling::div
+[INFO] 04-09-2023 15:19:50 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Total payable:']/following-sibling::div
+[INFO] 04-09-2023 15:19:50 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Total payable:']/following-sibling::div
+[INFO] 04-09-2023 15:19:50 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Total payable:']/following-sibling::div
+[INFO] 04-09-2023 15:19:51 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(.,'Available from ') and contains(.,'allet balance:')]/following-sibling::div
+[INFO] 04-09-2023 15:19:51 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(.,'Available from ') and contains(.,'allet balance:')]/following-sibling::div
+[INFO] 04-09-2023 15:19:51 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:19:51 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Balance due:']/following-sibling::div
+[INFO] 04-09-2023 15:19:51 [main] [LogUtils] - Verify element visible By.xpath: //div[.='Balance due:']/following-sibling::div
+[INFO] 04-09-2023 15:19:51 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:19:52 [main] [LogUtils] - Verify element visible By.xpath: //button[.='Confirm Exchange']
+[INFO] 04-09-2023 15:19:53 [main] [LogUtils] - Clicked on the element By.xpath: //button[.='Confirm Exchange']
+[INFO] 04-09-2023 15:19:55 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//h2[text()='Success!']
+[INFO] 04-09-2023 15:19:56 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//h2[text()='Success!']
+[INFO] 04-09-2023 15:19:56 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//h2[text()='Success!']
+[INFO] 04-09-2023 15:19:56 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Please ensure you add sufficient funds to your AED wallet by the settlement date']
+[INFO] 04-09-2023 15:19:56 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Total amount converted']/following-sibling::p
+[INFO] 04-09-2023 15:19:56 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Total amount converted']/following-sibling::p
+[INFO] 04-09-2023 15:19:56 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Total amount converted']/following-sibling::p
+[INFO] 04-09-2023 15:19:56 [main] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 04-09-2023 15:19:56 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Total amount converted']/following-sibling::p
+[INFO] 04-09-2023 15:19:56 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Total amount converted']/following-sibling::p
+[INFO] 04-09-2023 15:19:56 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Total amount converted']/following-sibling::p
+[INFO] 04-09-2023 15:19:56 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Total amount converted']/following-sibling::p
+[INFO] 04-09-2023 15:19:56 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Total amount converted']/following-sibling::p
+[INFO] 04-09-2023 15:19:56 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Total amount converted']/following-sibling::p
+[INFO] 04-09-2023 15:19:56 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Settlement due date']/following-sibling::p
+[INFO] 04-09-2023 15:19:56 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Settlement due date']/following-sibling::p
+[INFO] 04-09-2023 15:19:56 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Settlement due date']/following-sibling::p
+[INFO] 04-09-2023 15:19:56 [main] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 04-09-2023 15:19:56 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Settlement due date']/following-sibling::p
+[INFO] 04-09-2023 15:19:56 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Settlement due date']/following-sibling::p
+[INFO] 04-09-2023 15:19:56 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Settlement due date']/following-sibling::p
+[INFO] 04-09-2023 15:19:56 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Settlement due date']/following-sibling::p
+[INFO] 04-09-2023 15:19:57 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Settlement due date']/following-sibling::p
+[INFO] 04-09-2023 15:19:57 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Settlement due date']/following-sibling::p
+[INFO] 04-09-2023 15:19:57 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Transaction reference']/following-sibling::p
+[INFO] 04-09-2023 15:19:57 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Transaction reference']/following-sibling::p
+[INFO] 04-09-2023 15:19:57 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:19:57 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Transaction reference']/following-sibling::p
+[INFO] 04-09-2023 15:19:57 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//p[text()='Transaction reference']/following-sibling::p
+[INFO] 04-09-2023 15:19:57 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='dialog']//button[text()='Done']
+[INFO] 04-09-2023 15:19:58 [main] [LogUtils] - Clicked on the element By.xpath: //div[@role='dialog']//button[text()='Done']
+[INFO] 04-09-2023 15:20:01 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Dashboard']
+[INFO] 04-09-2023 15:20:01 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Dashboard']
+[INFO] 04-09-2023 15:20:01 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Transactions']
+[INFO] 04-09-2023 15:20:01 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Transactions']
+[INFO] 04-09-2023 15:20:03 [main] [LogUtils] - Verify element visible By.xpath: //td[.='AF-6OR1-GR6E']/parent::tr
+[INFO] 04-09-2023 15:20:03 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:20:03 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:20:03 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:20:03 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:20:03 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:20:03 [main] [LogUtils] - Verify element visible By.xpath: //td[.='AF-6OR1-GR6E']/parent::tr
+[INFO] 04-09-2023 15:20:04 [main] [LogUtils] - Clicked on the element By.xpath: //td[.='AF-6OR1-GR6E']/parent::tr
+[INFO] 04-09-2023 15:20:05 [main] [LogUtils] - Verify element visible By.xpath: //h2[contains(@id,'radix-')]/h1
+[INFO] 04-09-2023 15:20:05 [main] [LogUtils] - Verify element visible By.xpath: //h1[contains(text(),'receipt')]/following-sibling::*
+[INFO] 04-09-2023 15:20:05 [main] [LogUtils] - Verify element visible By.xpath: //h1[contains(text(),'receipt')]/following-sibling::*
+[INFO] 04-09-2023 15:20:05 [main] [LogUtils] - Verify element visible By.xpath: //h1[contains(text(),'receipt')]/following-sibling::*
+[INFO] 04-09-2023 15:20:05 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:20:05 [main] [LogUtils] - Verify element visible By.xpath: //h1[contains(text(),'receipt')]/following-sibling::*
+[INFO] 04-09-2023 15:20:05 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:20:05 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Exchange receipt']/parent::h2/following-sibling::p
+[INFO] 04-09-2023 15:20:05 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Exchange receipt']/parent::h2/following-sibling::p
+[INFO] 04-09-2023 15:20:05 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Exchange receipt']/parent::h2/following-sibling::p
+[INFO] 04-09-2023 15:20:05 [main] [LogUtils] - Verify text of an element [Contains]: true
+[INFO] 04-09-2023 15:20:05 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Exchange receipt']/parent::h2/following-sibling::p
+[INFO] 04-09-2023 15:20:05 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Exchange receipt']/parent::h2/following-sibling::p
+[INFO] 04-09-2023 15:20:06 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Settlement due date']/following-sibling::div
+[INFO] 04-09-2023 15:20:06 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Settlement due date']/following-sibling::div
+[INFO] 04-09-2023 15:20:06 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:20:06 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='From']/following-sibling::div
+[INFO] 04-09-2023 15:20:06 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='From']/following-sibling::div
+[INFO] 04-09-2023 15:20:06 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:20:06 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='To']/following-sibling::div
+[INFO] 04-09-2023 15:20:06 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='To']/following-sibling::div
+[INFO] 04-09-2023 15:20:06 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:20:06 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Exchange rate']/following-sibling::div
+[INFO] 04-09-2023 15:20:06 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:20:06 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Transaction reference']/following-sibling::div
+[INFO] 04-09-2023 15:20:06 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Transaction reference']/following-sibling::div
+[INFO] 04-09-2023 15:20:06 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:20:06 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Total funds due']/following-sibling::div
+[INFO] 04-09-2023 15:20:06 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Total funds due']/following-sibling::div
+[INFO] 04-09-2023 15:20:06 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:20:06 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Download']
+[INFO] 04-09-2023 15:20:07 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Close']/parent::button
+[INFO] 04-09-2023 15:20:07 [main] [LogUtils] - Clicked on the element By.xpath: //span[text()='Close']/parent::button
+[INFO] 04-09-2023 15:20:07 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Wallets']
+[INFO] 04-09-2023 15:20:08 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Wallets']
+[INFO] 04-09-2023 15:20:08 [main] [LogUtils] - Verify element visible By.xpath: //p[text()='Available funds']/following-sibling::p[contains(text(),'AUD')]
+[INFO] 04-09-2023 15:20:08 [main] [LogUtils] - Verify element visible By.xpath: //p[text()='Available funds']/following-sibling::p[contains(text(),'AUD')]
+[INFO] 04-09-2023 15:20:08 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:20:08 [main] [LogUtils] - Verify element visible By.xpath: //p[text()='Available funds']/following-sibling::p[contains(text(),'AED')]
+[INFO] 04-09-2023 15:20:08 [main] [LogUtils] - Verify element visible By.xpath: //p[text()='Available funds']/following-sibling::p[contains(text(),'AED')]
+[INFO] 04-09-2023 15:20:08 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:20:12 [main] [LogUtils] - Open URL: https://corporate-dev.hubpay.ae/auth/signin
+[INFO] 04-09-2023 15:20:14 [main] [LogUtils] - Verify element visible By.xpath: //li[contains(.,'Sign out')]
+[INFO] 04-09-2023 15:20:14 [main] [LogUtils] - Clicked on the element By.xpath: //li[contains(.,'Sign out')]
+[INFO] 04-09-2023 15:20:17 [main] [LogUtils] - Verify element visible By.cssSelector: input[name='username']
+[INFO] 04-09-2023 15:20:24 [main] [LogUtils] - Open URL: https://ops-portal-dev.hubpay.ae/wallet/
+[INFO] 04-09-2023 15:20:25 [main] [LogUtils] - Verify element visible By.cssSelector: input[name='loginfmt']
+[INFO] 04-09-2023 15:20:25 [main] [LogUtils] - Verify element visible By.cssSelector: input[name='loginfmt']
+[INFO] 04-09-2023 15:20:25 [main] [LogUtils] - Set text sreekanth@hubpay.ae on By.cssSelector: input[name='loginfmt']
+[INFO] 04-09-2023 15:20:25 [main] [LogUtils] - Verify element visible By.cssSelector: input[value='Next']
+[INFO] 04-09-2023 15:20:27 [main] [LogUtils] - Clicked on the element By.cssSelector: input[value='Next']
+[INFO] 04-09-2023 15:20:28 [main] [LogUtils] - Verify element visible By.cssSelector: input[name='passwd']
+[INFO] 04-09-2023 15:20:28 [main] [LogUtils] - Set text Passhub@1 on By.cssSelector: input[name='passwd']
+[INFO] 04-09-2023 15:20:28 [main] [LogUtils] - Verify element visible By.cssSelector: input[value='Sign in']
+[INFO] 04-09-2023 15:20:31 [main] [LogUtils] - Clicked on the element By.cssSelector: input[value='Sign in']
+[INFO] 04-09-2023 15:20:32 [main] [LogUtils] - Verify element visible By.cssSelector: input[value='Yes']
+[INFO] 04-09-2023 15:20:54 [main] [LogUtils] - Clicked on the element By.cssSelector: input[value='Yes']
+[INFO] 04-09-2023 15:20:54 [main] [LogUtils] - Verify element visible By.xpath: //a/div[.='Corporate Customers']
+[INFO] 04-09-2023 15:21:07 [main] [LogUtils] - Verify element visible By.xpath: (//span[text()='Corporate Customers'][contains(@class,'MuiListItemText-primary')]/ancestor::a)[1]
+[INFO] 04-09-2023 15:21:10 [main] [LogUtils] - Clicked on the element By.xpath: (//span[text()='Corporate Customers'][contains(@class,'MuiListItemText-primary')]/ancestor::a)[1]
+[INFO] 04-09-2023 15:21:10 [main] [LogUtils] - Verify element visible By.xpath: (//div[text()='Corporate Customers'][contains(@class,'MuiTypography-h4')])[1]
+[INFO] 04-09-2023 15:21:10 [main] [LogUtils] - Verify element visible By.xpath: (//div[text()='Corporate Customers'][contains(@class,'MuiTypography-h4')])[1]
+[INFO] 04-09-2023 15:21:10 [main] [LogUtils] - Verify element visible By.xpath: //div[@class='selected-flag']
+[INFO] 04-09-2023 15:21:13 [main] [LogUtils] - Verify element visible By.xpath: //div[@data-field='mobileNumber']/parent::div[@role='row'][@aria-rowindex='2']
+[INFO] 04-09-2023 15:21:13 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Phone']/following-sibling::input
+[INFO] 04-09-2023 15:21:13 [main] [LogUtils] - Verify element visible By.xpath: //div[@class='selected-flag']
+[INFO] 04-09-2023 15:21:14 [main] [LogUtils] - Clicked on the element By.xpath: //div[@class='selected-flag']
+[INFO] 04-09-2023 15:21:14 [main] [LogUtils] - Verify element visible By.xpath: //li[@class='search']/input
+[INFO] 04-09-2023 15:21:15 [main] [LogUtils] - Set text India on By.xpath: //li[@class='search']/input
+[INFO] 04-09-2023 15:21:15 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='dial-code'][text()='+91']/parent::li
+[INFO] 04-09-2023 15:21:19 [main] [LogUtils] - Clicked on the element By.xpath: //span[@class='dial-code'][text()='+91']/parent::li
+[INFO] 04-09-2023 15:21:19 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Phone']/following-sibling::input
+[INFO] 04-09-2023 15:21:24 [main] [LogUtils] - Set text 7989730020 on By.xpath: //div[text()='Phone']/following-sibling::input
+[INFO] 04-09-2023 15:21:28 [main] [LogUtils] - Click on element with JS: By.xpath: //button[text()='Search']
+[INFO] 04-09-2023 15:21:34 [main] [LogUtils] - Verify element visible By.xpath: (//div[@data-field='mobileNumber'][.='+917989730020']/parent::div[contains(@class,'MuiDataGrid-row')])[1]
+[INFO] 04-09-2023 15:21:34 [main] [LogUtils] - Verify element visible By.xpath: (//div[@data-field='mobileNumber'][.='+917989730020']/parent::div[contains(@class,'MuiDataGrid-row')])[1]
+[INFO] 04-09-2023 15:21:35 [main] [LogUtils] - Clicked on the element By.xpath: (//div[@data-field='mobileNumber'][.='+917989730020']/parent::div[contains(@class,'MuiDataGrid-row')])[1]
+[INFO] 04-09-2023 15:21:41 [main] [LogUtils] - Verify element visible By.xpath: //h5[text()='Profile']
+[INFO] 04-09-2023 15:21:41 [main] [LogUtils] - Verify element visible By.xpath: //h5[text()='Profile']
+[INFO] 04-09-2023 15:21:41 [main] [LogUtils] - Verify element visible By.xpath: //h5[text()='Profile']
+[INFO] 04-09-2023 15:21:41 [main] [LogUtils] - Verify element visible By.xpath: //div[@aria-label='currency'][text()='AED']
+[INFO] 04-09-2023 15:21:41 [main] [LogUtils] - Verify element visible By.xpath: //div[.='AUD']/following-sibling::div/span[contains(text(),'Available Balance')]
+[INFO] 04-09-2023 15:21:42 [main] [LogUtils] - Verify element visible By.xpath: //div[.='AUD']/following-sibling::div/span[contains(text(),'Available Balance')]
+[INFO] 04-09-2023 15:21:42 [main] [LogUtils] - Verify element visible By.xpath: //div[@aria-label='currency'][text()='AED']
+[INFO] 04-09-2023 15:21:42 [main] [LogUtils] - Verify element visible By.xpath: //div[.='AUD']/following-sibling::div/span[contains(text(),'Available Balance')]
+[INFO] 04-09-2023 15:21:42 [main] [LogUtils] - Verify element visible By.xpath: //div[.='AUD']/following-sibling::div/span[contains(text(),'Available Balance')]
+[INFO] 04-09-2023 15:21:42 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:21:42 [main] [LogUtils] - Verify element visible By.xpath: //div[@aria-label='currency'][text()='AED']
+[INFO] 04-09-2023 15:21:42 [main] [LogUtils] - Verify element visible By.xpath: //div[.='AED']/following-sibling::div/span[contains(text(),'Available Balance')]
+[INFO] 04-09-2023 15:21:42 [main] [LogUtils] - Verify element visible By.xpath: //div[.='AED']/following-sibling::div/span[contains(text(),'Available Balance')]
+[INFO] 04-09-2023 15:21:42 [main] [LogUtils] - Verify element visible By.xpath: //div[@aria-label='currency'][text()='AED']
+[INFO] 04-09-2023 15:21:42 [main] [LogUtils] - Verify element visible By.xpath: //div[.='AED']/following-sibling::div/span[contains(text(),'Available Balance')]
+[INFO] 04-09-2023 15:21:42 [main] [LogUtils] - Verify element visible By.xpath: //div[.='AED']/following-sibling::div/span[contains(text(),'Available Balance')]
+[INFO] 04-09-2023 15:21:42 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:21:44 [main] [LogUtils] - Verify element visible By.xpath: //button[@role='tab'][text()='Wallet debits']
+[INFO] 04-09-2023 15:21:45 [main] [LogUtils] - Verify element visible By.xpath: //button[@role='tab'][text()='Wallet debits']
+[INFO] 04-09-2023 15:21:45 [main] [LogUtils] - Clicked on the element By.xpath: //button[@role='tab'][text()='Wallet debits']
+[INFO] 04-09-2023 15:21:45 [main] [LogUtils] - Verify element visible By.xpath: //button[@role='tab'][@aria-selected='true'][text()='Wallet debits']
+[INFO] 04-09-2023 15:21:47 [main] [LogUtils] - Verify element visible By.xpath: //div[@data-field='reference'][.='AF-6OR1-GR6E']/parent::div[@role='row']
+[INFO] 04-09-2023 15:21:47 [main] [LogUtils] - Verify element visible By.xpath: //div[@data-field='reference'][.='AF-6OR1-GR6E']/parent::div[@role='row']
+[INFO] 04-09-2023 15:21:49 [main] [LogUtils] - Clicked on the element By.xpath: //div[@data-field='reference'][.='AF-6OR1-GR6E']/parent::div[@role='row']
+[INFO] 04-09-2023 15:21:49 [main] [LogUtils] - Verify element visible By.xpath: //h2[text()='Foreign Exchange']
+[INFO] 04-09-2023 15:21:49 [main] [LogUtils] - Verify element visible By.xpath: //h2[text()='Foreign Exchange']
+[INFO] 04-09-2023 15:21:50 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Order Status']
+[INFO] 04-09-2023 15:21:50 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Order Status']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:50 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Order Status']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:50 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Order Status']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:50 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Reference']
+[INFO] 04-09-2023 15:21:50 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Reference']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:50 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Reference']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:50 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Reference']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:50 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Created At']
+[INFO] 04-09-2023 15:21:50 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Created At']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:50 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Created At']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:50 [main] [LogUtils] - Verify Equals: 04/09/2023 15:19 CONTAINS 04/09/2023
+[INFO] 04-09-2023 15:21:50 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Ordered At']
+[INFO] 04-09-2023 15:21:50 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Ordered At']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:50 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Ordered At']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:50 [main] [LogUtils] - Verify Equals: 04/09/2023 15:19 CONTAINS 04/09/2023
+[INFO] 04-09-2023 15:21:50 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Order Settled At']
+[INFO] 04-09-2023 15:21:51 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Order Settled At']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:51 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Order Settled At']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:51 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Order Settled At']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:51 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Rejected At']
+[INFO] 04-09-2023 15:21:51 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Rejected At']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:51 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Rejected At']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:51 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Rejected At']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:51 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Settlment Date']
+[INFO] 04-09-2023 15:21:51 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Settlment Date']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:51 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Settlment Date']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:51 [main] [LogUtils] - Verify Equals: 06/09/2023 00:00 CONTAINS 06/09/2023
+[INFO] 04-09-2023 15:21:51 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Completed At']
+[INFO] 04-09-2023 15:21:51 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Completed At']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:51 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Completed At']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:51 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Completed At']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:51 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Total Funds Due']
+[INFO] 04-09-2023 15:21:51 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Total Funds Due']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:51 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Total Funds Due']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:52 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Total Funds Due']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:52 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Offer Rate']
+[INFO] 04-09-2023 15:21:52 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Offer Rate']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:52 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Offer Rate']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:52 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Offer Rate']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:52 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Send Amount']
+[INFO] 04-09-2023 15:21:52 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Send Amount']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:52 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Send Amount']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:52 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Send Amount']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:52 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Receive Amount']
+[INFO] 04-09-2023 15:21:52 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Receive Amount']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:52 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Receive Amount']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:52 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Receive Amount']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:52 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Settlement Received']
+[INFO] 04-09-2023 15:21:52 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Settlement Received']
+[INFO] 04-09-2023 15:21:53 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Settlement Received']
+[INFO] 04-09-2023 15:21:55 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Settle']
+[INFO] 04-09-2023 15:21:55 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Order Status']
+[INFO] 04-09-2023 15:21:55 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Order Status']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:55 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Order Status']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:55 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Order Status']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:55 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Reference']
+[INFO] 04-09-2023 15:21:55 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Reference']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:55 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Reference']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:55 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Reference']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:55 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Created At']
+[INFO] 04-09-2023 15:21:55 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Created At']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:55 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Created At']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:55 [main] [LogUtils] - Verify Equals: 04/09/2023 15:19 CONTAINS 04/09/2023
+[INFO] 04-09-2023 15:21:55 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Ordered At']
+[INFO] 04-09-2023 15:21:56 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Ordered At']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:56 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Ordered At']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:56 [main] [LogUtils] - Verify Equals: 04/09/2023 15:19 CONTAINS 04/09/2023
+[INFO] 04-09-2023 15:21:56 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Order Settled At']
+[INFO] 04-09-2023 15:21:56 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Order Settled At']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:56 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Order Settled At']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:56 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Order Settled At']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:56 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Rejected At']
+[INFO] 04-09-2023 15:21:56 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Rejected At']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:56 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Rejected At']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:56 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Rejected At']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:56 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Settlment Date']
+[INFO] 04-09-2023 15:21:56 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Settlment Date']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:56 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Settlment Date']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:56 [main] [LogUtils] - Verify Equals: 06/09/2023 00:00 CONTAINS 06/09/2023
+[INFO] 04-09-2023 15:21:56 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Completed At']
+[INFO] 04-09-2023 15:21:56 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Completed At']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:56 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Completed At']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:56 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Completed At']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:57 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Total Funds Due']
+[INFO] 04-09-2023 15:21:57 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Total Funds Due']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:57 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Total Funds Due']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:57 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Total Funds Due']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:57 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Offer Rate']
+[INFO] 04-09-2023 15:21:57 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Offer Rate']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:57 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Offer Rate']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:57 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Offer Rate']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:57 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Send Amount']
+[INFO] 04-09-2023 15:21:57 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Send Amount']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:57 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Send Amount']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:57 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Send Amount']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:57 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Receive Amount']
+[INFO] 04-09-2023 15:21:57 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Receive Amount']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:57 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Receive Amount']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:57 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Receive Amount']/following-sibling::div/p
+[INFO] 04-09-2023 15:21:58 [main] [LogUtils] - Verify element visible By.xpath: //a[text()='User Account ID']
+[INFO] 04-09-2023 15:22:06 [main] [LogUtils] - Clicked on the element By.xpath: //a[text()='User Account ID']
+[INFO] 04-09-2023 15:22:10 [main] [LogUtils] - Verify element visible By.xpath: //h5[text()='Profile']
+[INFO] 04-09-2023 15:22:10 [main] [LogUtils] - Verify element visible By.xpath: //h5[text()='Profile']
+[INFO] 04-09-2023 15:22:10 [main] [LogUtils] - Verify element visible By.xpath: //div[@aria-label='currency'][text()='AED']
+[INFO] 04-09-2023 15:22:11 [main] [LogUtils] - Verify element visible By.xpath: //div[.='AUD']/following-sibling::div/span[contains(text(),'Available Balance')]
+[INFO] 04-09-2023 15:22:11 [main] [LogUtils] - Verify element visible By.xpath: //div[.='AUD']/following-sibling::div/span[contains(text(),'Available Balance')]
+[INFO] 04-09-2023 15:22:11 [main] [LogUtils] - Verify element visible By.xpath: //div[@aria-label='currency'][text()='AED']
+[INFO] 04-09-2023 15:22:11 [main] [LogUtils] - Verify element visible By.xpath: //div[.='AUD']/following-sibling::div/span[contains(text(),'Available Balance')]
+[INFO] 04-09-2023 15:22:11 [main] [LogUtils] - Verify element visible By.xpath: //div[.='AUD']/following-sibling::div/span[contains(text(),'Available Balance')]
+[INFO] 04-09-2023 15:22:11 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:22:11 [main] [LogUtils] - Verify element visible By.xpath: //div[@aria-label='currency'][text()='AED']
+[INFO] 04-09-2023 15:22:11 [main] [LogUtils] - Verify element visible By.xpath: //div[.='AED']/following-sibling::div/span[contains(text(),'Available Balance')]
+[INFO] 04-09-2023 15:22:11 [main] [LogUtils] - Verify element visible By.xpath: //div[.='AED']/following-sibling::div/span[contains(text(),'Available Balance')]
+[INFO] 04-09-2023 15:22:11 [main] [LogUtils] - Verify element visible By.xpath: //div[@aria-label='currency'][text()='AED']
+[INFO] 04-09-2023 15:22:11 [main] [LogUtils] - Verify element visible By.xpath: //div[.='AED']/following-sibling::div/span[contains(text(),'Available Balance')]
+[INFO] 04-09-2023 15:22:11 [main] [LogUtils] - Verify element visible By.xpath: //div[.='AED']/following-sibling::div/span[contains(text(),'Available Balance')]
+[INFO] 04-09-2023 15:22:11 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:22:22 [main] [LogUtils] - Open URL: https://corporate-dev.hubpay.ae/auth/signin
+[INFO] 04-09-2023 15:22:22 [main] [LogUtils] - Verify element visible By.cssSelector: input[name='username']
+[INFO] 04-09-2023 15:22:24 [main] [LogUtils] - Set text sreekanth@hubpay.ae on By.cssSelector: input[name='username']
+[INFO] 04-09-2023 15:22:24 [main] [LogUtils] - Verify element visible By.cssSelector: input[name='password']
+[INFO] 04-09-2023 15:22:24 [main] [LogUtils] - Set text Passhub@1 on By.cssSelector: input[name='password']
+[INFO] 04-09-2023 15:22:26 [main] [LogUtils] - Click on element with JS: By.xpath: //button[text()='Next']
+[INFO] 04-09-2023 15:22:33 [main] [LogUtils] - Verify element visible By.xpath: //li[contains(.,'Sign out')]
+[INFO] 04-09-2023 15:22:39 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Dashboard']
+[INFO] 04-09-2023 15:22:39 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Dashboard']
+[INFO] 04-09-2023 15:22:41 [main] [LogUtils] - Verify element visible By.xpath: //p[text()='Available funds']/following-sibling::p[contains(text(),'AED')]
+[INFO] 04-09-2023 15:22:42 [main] [LogUtils] - Verify element visible By.xpath: //p[text()='Available funds']/following-sibling::p[contains(text(),'AED')]
+[INFO] 04-09-2023 15:22:42 [main] [LogUtils] - Verify TRUE: false
+[ERROR] 04-09-2023 15:22:44 [main] [LifecycleNotifier] - Could not invoke listener method
+org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/bz/l4ntdftn1jd...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53890}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53890/devtoo..., se:cdpVersion: 116.0.5845.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:316) ~[selenium-remote-driver-4.10.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.openqa.selenium.support.ThreadGuard$WebDriverInvocationHandler.invokeUnderlying(ThreadGuard.java:99) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ThreadGuard$WebDriverInvocationHandler.invoke(ThreadGuard.java:91) ~[selenium-support-4.10.0.jar:?]
+	at com.sun.proxy.$Proxy47.getScreenshotAs(Unknown Source) ~[?:?]
+	at anhtester.com.listeners.AllureListener.beforeTestStop(AllureListener.java:43) ~[test-classes/:?]
+	at io.qameta.allure.listener.LifecycleNotifier.lambda$runSafely$0(LifecycleNotifier.java:211) ~[allure-java-commons-2.22.1.jar:2.22.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
+	at io.qameta.allure.listener.LifecycleNotifier.runSafely(LifecycleNotifier.java:209) ~[allure-java-commons-2.22.1.jar:2.22.1]
+	at io.qameta.allure.listener.LifecycleNotifier.beforeTestStop(LifecycleNotifier.java:88) ~[allure-java-commons-2.22.1.jar:2.22.1]
+	at io.qameta.allure.AllureLifecycle.stopTestCase(AllureLifecycle.java:420) ~[allure-java-commons-2.22.1.jar:2.22.1]
+	at io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm.handleTestCaseFinished(AllureCucumber7Jvm.java:197) ~[allure-cucumber7-jvm-2.22.1.jar:2.22.1]
+	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51) ~[cucumber-core-7.12.1.jar:7.12.1]
+	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12) ~[cucumber-core-7.12.1.jar:7.12.1]
+	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47) ~[cucumber-core-7.12.1.jar:7.12.1]
+	at io.cucumber.core.runtime.ThreadLocalRunnerSupplier$LocalEventBus.send(ThreadLocalRunnerSupplier.java:62) ~[cucumber-core-7.12.1.jar:7.12.1]
+	at io.cucumber.core.runner.TestCase.emitTestCaseFinished(TestCase.java:219) ~[cucumber-core-7.12.1.jar:7.12.1]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:98) ~[cucumber-core-7.12.1.jar:7.12.1]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.12.1.jar:7.12.1]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.12.1.jar:7.12.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137) ~[cucumber-core-7.12.1.jar:7.12.1]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.12.1.jar:7.12.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137) ~[cucumber-core-7.12.1.jar:7.12.1]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.12.1.jar:7.12.1]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.12.1.jar:7.12.1]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
+[ERROR] 04-09-2023 15:22:44 [main] [LifecycleNotifier] - Could not invoke listener method
+org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/bz/l4ntdftn1jd...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53890}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53890/devtoo..., se:cdpVersion: 116.0.5845.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594) ~[selenium-remote-driver-4.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:316) ~[selenium-remote-driver-4.10.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.openqa.selenium.support.ThreadGuard$WebDriverInvocationHandler.invokeUnderlying(ThreadGuard.java:99) ~[selenium-support-4.10.0.jar:?]
+	at org.openqa.selenium.support.ThreadGuard$WebDriverInvocationHandler.invoke(ThreadGuard.java:91) ~[selenium-support-4.10.0.jar:?]
+	at com.sun.proxy.$Proxy47.getScreenshotAs(Unknown Source) ~[?:?]
+	at anhtester.com.listeners.AllureListener.beforeTestStop(AllureListener.java:43) ~[test-classes/:?]
+	at io.qameta.allure.listener.LifecycleNotifier.lambda$runSafely$0(LifecycleNotifier.java:211) ~[allure-java-commons-2.22.1.jar:2.22.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
+	at io.qameta.allure.listener.LifecycleNotifier.runSafely(LifecycleNotifier.java:209) ~[allure-java-commons-2.22.1.jar:2.22.1]
+	at io.qameta.allure.listener.LifecycleNotifier.beforeTestStop(LifecycleNotifier.java:88) ~[allure-java-commons-2.22.1.jar:2.22.1]
+	at io.qameta.allure.AllureLifecycle.stopTestCase(AllureLifecycle.java:420) ~[allure-java-commons-2.22.1.jar:2.22.1]
+	at io.qameta.allure.testng.AllureTestNg.stopTestCase(AllureTestNg.java:376) ~[allure-testng-2.22.1.jar:2.22.1]
+	at io.qameta.allure.testng.AllureTestNg.onTestFailure(AllureTestNg.java:370) ~[allure-testng-2.22.1.jar:2.22.1]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:108) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:262) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:751) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
+[INFO] 04-09-2023 15:27:40 [main] [Utils] - [TestNG] Running:
+  /Users/kanthreddy/Library/Caches/JetBrains/IdeaIE2022.2/temp-testng-customsuite.xml
+
+[INFO] 04-09-2023 15:27:41 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-09-2023 15:27:41 [main] [LogUtils] - {TARGET=local, ownerDetail=xpath&&//div[@id='s2id_created_by']//a[@class='select2-choice']/span[1], menuClients=xpath&&//span[normalize-space()='Clients'], TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, inputPhone=xpath&&//input[@id='phone'], inputClientGroups=xpath&&(//label[normalize-space()='Client groups']/following-sibling::div//input)[1], buttonSaveOnDialog=xpath&&//div[@id='ajaxModalContent']//button[normalize-space()='Save'], spanFirstItemClientGroups=xpath&&//span[@class='select2-match'], inputCountry=xpath&&//input[@id='country'], SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=no, ZIP_FOLDER_NAME=CucumberExtentReports.zip, WAIT_DEFAULT=5, REMOTE_PORT=4444, TELEGRAM_TOKEN=, buttonAddClient=xpath&&//a[normalize-space()='Add client'], URL_CORP=https://corporate-dev.hubpay.ae/auth/signin, labelClientGroups=xpath&&//li[@class='select2-search-choice']/div, URL_OPS=https://ops-portal-dev.hubpay.ae/wallet/, inputState=xpath&&//input[@id='state'], labelOnClientPage=xpath&&//span[normalize-space()='Total clients'], inputPassword=xpath&&//input[@id='password'], EXTENT_REPORT_PDF=PdfReport.pdf, inputAddress=xpath&&//textarea[@id='address'], VIDEO_RECORD=no, inputSearchOwner=xpath&&//div[@id='select2-drop']//input, tabClient=xpath&&//ul[@id='client-tabs']//li[2], labelEmailError=id&&email-error, tabClientInfo=xpath&&//a[normalize-space()='Client info'], PASSWORD=T+wyT5u9cOelDJbBWNgxLw, inputWebsite=xpath&&//input[@id='website'], SCREENSHOT_ALL_STEPS=no, labelAuthentication=xpath&&//div[@role='alert'], EXTENT_REPORT_NAME=ExtentReport, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=30, SCREENSHOT_PASSED_STEPS=no, radioOrganization=xpath&&//input[@id='type_organization'], EXTENT_REPORT_FOLDER=reports/CucumberExtentReports, itemClientFirstRow=xpath&&//table[@id='client-table']//tbody/tr[1]/td[2]/a, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, inputEmail=xpath&&//input[@id='email'], menuDashboard=xpath&&//span[normalize-space()='Dashboard'], REPORT_TITLE=Report | Automation Framework Cucumber TestNG | Anh Tester, AUTHOR=Anh Tester, EXCEL_DATA_FILE_PATH=src/test/resources/testdata/ClientsDataExcel.xlsx, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Cucumber TestNG | Anh Tester, HEADLESS=false, REMOTE_URL=localhost, inputCompanyName=xpath&&//input[@id='company_name'], selectOwner=xpath&&//div[@id='s2id_created_by'], inputCity=xpath&&//input[@id='city'], SCREENSHOT_FAILED_STEPS=yes, TXT_FILE_PATH=src/test/resources/testdata/TxtFileData.txt, selectFirstItemOwner=xpath&&(//div[contains(@id,'select2-result-label')])[1], buttonSignIn=xpath&&//button[normalize-space()='Sign in'], JSON_DATA_FILE_PATH=src/test/resources/config/config.json, inputVat=xpath&&//input[@id='vat_number'], ACTIVE_PAGE_LOADED=true, headerPageClientInfo=xpath&&//form[@id='company-form']//h4, URL_CRM=https://rise.fairsketch.com/signin, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, buttonDynamicXpath=xpath&&//button[normalize-space()='%s'], ZIP_FOLDER_PATH=reports/CucumberExtentReports, inputZip=xpath&&//input[@id='zip'], inputSearch=xpath&&//input[@placeholder='Search'], ZIP_FOLDER=no, menuProjects=xpath&&//span[normalize-space()='Projects']}
+[INFO] 04-09-2023 15:27:41 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-09-2023 15:27:41 [main] [LogUtils] - {TARGET=local, ownerDetail=xpath&&//div[@id='s2id_created_by']//a[@class='select2-choice']/span[1], menuClients=xpath&&//span[normalize-space()='Clients'], TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, inputPhone=xpath&&//input[@id='phone'], inputClientGroups=xpath&&(//label[normalize-space()='Client groups']/following-sibling::div//input)[1], buttonSaveOnDialog=xpath&&//div[@id='ajaxModalContent']//button[normalize-space()='Save'], spanFirstItemClientGroups=xpath&&//span[@class='select2-match'], inputCountry=xpath&&//input[@id='country'], SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=no, ZIP_FOLDER_NAME=CucumberExtentReports.zip, WAIT_DEFAULT=5, REMOTE_PORT=4444, TELEGRAM_TOKEN=, buttonAddClient=xpath&&//a[normalize-space()='Add client'], URL_CORP=https://corporate-dev.hubpay.ae/auth/signin, labelClientGroups=xpath&&//li[@class='select2-search-choice']/div, URL_OPS=https://ops-portal-dev.hubpay.ae/wallet/, inputState=xpath&&//input[@id='state'], labelOnClientPage=xpath&&//span[normalize-space()='Total clients'], inputPassword=xpath&&//input[@id='password'], EXTENT_REPORT_PDF=PdfReport.pdf, inputAddress=xpath&&//textarea[@id='address'], VIDEO_RECORD=no, inputSearchOwner=xpath&&//div[@id='select2-drop']//input, tabClient=xpath&&//ul[@id='client-tabs']//li[2], labelEmailError=id&&email-error, tabClientInfo=xpath&&//a[normalize-space()='Client info'], PASSWORD=T+wyT5u9cOelDJbBWNgxLw, inputWebsite=xpath&&//input[@id='website'], SCREENSHOT_ALL_STEPS=no, labelAuthentication=xpath&&//div[@role='alert'], EXTENT_REPORT_NAME=ExtentReport, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=30, SCREENSHOT_PASSED_STEPS=no, radioOrganization=xpath&&//input[@id='type_organization'], EXTENT_REPORT_FOLDER=reports/CucumberExtentReports, itemClientFirstRow=xpath&&//table[@id='client-table']//tbody/tr[1]/td[2]/a, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, inputEmail=xpath&&//input[@id='email'], menuDashboard=xpath&&//span[normalize-space()='Dashboard'], REPORT_TITLE=Report | Automation Framework Cucumber TestNG | Anh Tester, AUTHOR=Anh Tester, EXCEL_DATA_FILE_PATH=src/test/resources/testdata/ClientsDataExcel.xlsx, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Cucumber TestNG | Anh Tester, HEADLESS=false, REMOTE_URL=localhost, inputCompanyName=xpath&&//input[@id='company_name'], selectOwner=xpath&&//div[@id='s2id_created_by'], inputCity=xpath&&//input[@id='city'], SCREENSHOT_FAILED_STEPS=yes, TXT_FILE_PATH=src/test/resources/testdata/TxtFileData.txt, selectFirstItemOwner=xpath&&(//div[contains(@id,'select2-result-label')])[1], buttonSignIn=xpath&&//button[normalize-space()='Sign in'], JSON_DATA_FILE_PATH=src/test/resources/config/config.json, inputVat=xpath&&//input[@id='vat_number'], ACTIVE_PAGE_LOADED=true, headerPageClientInfo=xpath&&//form[@id='company-form']//h4, URL_CRM=https://rise.fairsketch.com/signin, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, buttonDynamicXpath=xpath&&//button[normalize-space()='%s'], ZIP_FOLDER_PATH=reports/CucumberExtentReports, inputZip=xpath&&//input[@id='zip'], inputSearch=xpath&&//input[@placeholder='Search'], ZIP_FOLDER=no, menuProjects=xpath&&//span[normalize-space()='Projects']}
+[INFO] 04-09-2023 15:27:41 [main] [WebDriverManager] - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+[INFO] 04-09-2023 15:27:41 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/kanthreddy/.cache/selenium/chromedriver/mac-arm64/116.0.5845.96/chromedriver
+[INFO] 04-09-2023 15:27:48 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on mac (0206cc9f8434c1175b85327572f4f2ce)
+[INFO] 04-09-2023 15:27:51 [main] [LogUtils] - Open URL: https://corporate-dev.hubpay.ae/auth/signin
+[INFO] 04-09-2023 15:27:51 [main] [LogUtils] - Verify element visible By.cssSelector: input[name='username']
+[INFO] 04-09-2023 15:27:52 [main] [LogUtils] - Set text sreekanth@hubpay.ae on By.cssSelector: input[name='username']
+[INFO] 04-09-2023 15:27:53 [main] [LogUtils] - Verify element visible By.cssSelector: input[name='password']
+[INFO] 04-09-2023 15:27:53 [main] [LogUtils] - Set text Passhub@1 on By.cssSelector: input[name='password']
+[INFO] 04-09-2023 15:27:55 [main] [LogUtils] - Click on element with JS: By.xpath: //button[text()='Next']
+[INFO] 04-09-2023 15:28:00 [main] [LogUtils] - Verify element visible By.xpath: //li[contains(.,'Sign out')]
+[INFO] 04-09-2023 15:28:07 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Dashboard']
+[INFO] 04-09-2023 15:28:08 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Dashboard']
+[INFO] 04-09-2023 15:28:12 [main] [LogUtils] - Verify element visible By.xpath: //p[text()='Available funds']/following-sibling::p[contains(text(),'AED')]
+[INFO] 04-09-2023 15:28:12 [main] [LogUtils] - Verify element visible By.xpath: //p[text()='Available funds']/following-sibling::p[contains(text(),'AED')]
+[INFO] 04-09-2023 15:28:12 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:28:12 [main] [LogUtils] - Verify element visible By.xpath: //p[text()='Available funds']/following-sibling::p[contains(text(),'AUD')]
+[INFO] 04-09-2023 15:28:13 [main] [LogUtils] - Verify element visible By.xpath: //p[text()='Available funds']/following-sibling::p[contains(text(),'AUD')]
+[INFO] 04-09-2023 15:28:13 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:28:13 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Transactions']
+[INFO] 04-09-2023 15:28:15 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Transactions']
+[INFO] 04-09-2023 15:28:16 [main] [LogUtils] - Verify element visible By.xpath: //td[.='AF-6OR1-GR6E']/parent::tr
+[INFO] 04-09-2023 15:28:16 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:28:16 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:28:16 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:28:16 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:28:16 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:28:16 [main] [LogUtils] - Verify element visible By.xpath: //td[.='AF-6OR1-GR6E']/parent::tr
+[INFO] 04-09-2023 15:28:18 [main] [LogUtils] - Clicked on the element By.xpath: //td[.='AF-6OR1-GR6E']/parent::tr
+[INFO] 04-09-2023 15:28:19 [main] [LogUtils] - Verify element visible By.xpath: //h2[contains(@id,'radix-')]/h1
+[INFO] 04-09-2023 15:28:19 [main] [LogUtils] - Verify element visible By.xpath: //h1[contains(text(),'receipt')]/following-sibling::*
+[INFO] 04-09-2023 15:28:19 [main] [LogUtils] - Verify element visible By.xpath: //h1[contains(text(),'receipt')]/following-sibling::*
+[INFO] 04-09-2023 15:28:19 [main] [LogUtils] - Verify element visible By.xpath: //h1[contains(text(),'receipt')]/following-sibling::*
+[INFO] 04-09-2023 15:28:19 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:28:19 [main] [LogUtils] - Verify element visible By.xpath: //h1[contains(text(),'receipt')]/following-sibling::*
+[INFO] 04-09-2023 15:28:19 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:28:19 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Exchange receipt']/parent::h2/following-sibling::p
+[INFO] 04-09-2023 15:28:19 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Exchange receipt']/parent::h2/following-sibling::p
+[INFO] 04-09-2023 15:28:20 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Exchange receipt']/parent::h2/following-sibling::p
+[INFO] 04-09-2023 15:28:20 [main] [LogUtils] - Verify text of an element [Contains]: true
+[INFO] 04-09-2023 15:28:20 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Exchange receipt']/parent::h2/following-sibling::p
+[INFO] 04-09-2023 15:28:20 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Exchange receipt']/parent::h2/following-sibling::p
+[INFO] 04-09-2023 15:28:20 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Settlement due date']/following-sibling::div
+[INFO] 04-09-2023 15:28:20 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Settlement due date']/following-sibling::div
+[INFO] 04-09-2023 15:28:20 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:28:20 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='From']/following-sibling::div
+[INFO] 04-09-2023 15:28:20 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='From']/following-sibling::div
+[INFO] 04-09-2023 15:28:20 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:28:20 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='To']/following-sibling::div
+[INFO] 04-09-2023 15:28:20 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='To']/following-sibling::div
+[INFO] 04-09-2023 15:28:20 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:28:20 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Exchange rate']/following-sibling::div
+[INFO] 04-09-2023 15:28:20 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:28:20 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Transaction reference']/following-sibling::div
+[INFO] 04-09-2023 15:28:21 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Transaction reference']/following-sibling::div
+[INFO] 04-09-2023 15:28:21 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:28:21 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Total funds due']/following-sibling::div
+[INFO] 04-09-2023 15:28:21 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Total funds due']/following-sibling::div
+[INFO] 04-09-2023 15:28:21 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:28:21 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Download']
+[INFO] 04-09-2023 15:28:21 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Close']/parent::button
+[INFO] 04-09-2023 15:28:22 [main] [LogUtils] - Clicked on the element By.xpath: //span[text()='Close']/parent::button
+[INFO] 04-09-2023 15:28:28 [main] [LogUtils] - Open URL: https://corporate-dev.hubpay.ae/auth/signin
+[INFO] 04-09-2023 15:28:32 [main] [LogUtils] - Verify element visible By.xpath: //li[contains(.,'Sign out')]
+[INFO] 04-09-2023 15:28:33 [main] [LogUtils] - Clicked on the element By.xpath: //li[contains(.,'Sign out')]
+[INFO] 04-09-2023 15:28:36 [main] [LogUtils] - Verify element visible By.cssSelector: input[name='username']
+[INFO] 04-09-2023 15:28:42 [main] [LogUtils] - Open URL: https://ops-portal-dev.hubpay.ae/wallet/
+[INFO] 04-09-2023 15:28:43 [main] [LogUtils] - Verify element visible By.cssSelector: input[name='loginfmt']
+[INFO] 04-09-2023 15:28:43 [main] [LogUtils] - Verify element visible By.cssSelector: input[name='loginfmt']
+[INFO] 04-09-2023 15:28:43 [main] [LogUtils] - Set text sreekanth@hubpay.ae on By.cssSelector: input[name='loginfmt']
+[INFO] 04-09-2023 15:28:43 [main] [LogUtils] - Verify element visible By.cssSelector: input[value='Next']
+[INFO] 04-09-2023 15:28:45 [main] [LogUtils] - Clicked on the element By.cssSelector: input[value='Next']
+[INFO] 04-09-2023 15:28:46 [main] [LogUtils] - Verify element visible By.cssSelector: input[name='passwd']
+[INFO] 04-09-2023 15:28:47 [main] [LogUtils] - Set text Passhub@1 on By.cssSelector: input[name='passwd']
+[INFO] 04-09-2023 15:28:47 [main] [LogUtils] - Verify element visible By.cssSelector: input[value='Sign in']
+[INFO] 04-09-2023 15:28:49 [main] [LogUtils] - Clicked on the element By.cssSelector: input[value='Sign in']
+[INFO] 04-09-2023 15:28:50 [main] [LogUtils] - Verify element visible By.cssSelector: input[value='Yes']
+[INFO] 04-09-2023 15:29:12 [main] [LogUtils] - Clicked on the element By.cssSelector: input[value='Yes']
+[INFO] 04-09-2023 15:29:13 [main] [LogUtils] - Verify element visible By.xpath: //a/div[.='Corporate Customers']
+[INFO] 04-09-2023 15:29:23 [main] [LogUtils] - Verify element visible By.xpath: (//span[text()='Transactions'][contains(@class,'MuiListItemText-primary')]/ancestor::a)[1]
+[INFO] 04-09-2023 15:29:25 [main] [LogUtils] - Clicked on the element By.xpath: (//span[text()='Transactions'][contains(@class,'MuiListItemText-primary')]/ancestor::a)[1]
+[INFO] 04-09-2023 15:29:30 [main] [LogUtils] - Verify element visible By.xpath: (//div[text()='Transactions'][contains(@class,'MuiTypography-h4')])[1]
+[INFO] 04-09-2023 15:29:30 [main] [LogUtils] - Verify element visible By.xpath: (//div[text()='Transactions'][contains(@class,'MuiTypography-h4')])[1]
+[INFO] 04-09-2023 15:29:30 [main] [LogUtils] - Verify element visible By.xpath: //div[@data-field='reference'][.='AF-6OR1-GR6E']/parent::div[@role='row']
+[INFO] 04-09-2023 15:29:30 [main] [LogUtils] - Verify element visible By.xpath: //div[@data-field='reference'][.='AF-6OR1-GR6E']/parent::div[@role='row']
+[INFO] 04-09-2023 15:29:35 [main] [LogUtils] - Clicked on the element By.xpath: //div[@data-field='reference'][.='AF-6OR1-GR6E']/parent::div[@role='row']
+[INFO] 04-09-2023 15:29:37 [main] [LogUtils] - Verify element visible By.xpath: //h2[text()='Foreign Exchange']
+[INFO] 04-09-2023 15:29:37 [main] [LogUtils] - Verify element visible By.xpath: //h2[text()='Foreign Exchange']
+[INFO] 04-09-2023 15:29:37 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Settle']
+[INFO] 04-09-2023 15:29:38 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Settle']
+[INFO] 04-09-2023 15:29:46 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Order Status']
+[INFO] 04-09-2023 15:29:46 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Order Status']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:46 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Order Status']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:46 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Order Status']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:46 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Reference']
+[INFO] 04-09-2023 15:29:46 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Reference']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:46 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Reference']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:46 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Reference']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:46 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Created At']
+[INFO] 04-09-2023 15:29:46 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Created At']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:46 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Created At']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:46 [main] [LogUtils] - Verify Equals: 04/09/2023 15:19 CONTAINS 04/09/2023
+[INFO] 04-09-2023 15:29:47 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Ordered At']
+[INFO] 04-09-2023 15:29:47 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Ordered At']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:47 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Ordered At']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:47 [main] [LogUtils] - Verify Equals: 04/09/2023 15:19 CONTAINS 04/09/2023
+[INFO] 04-09-2023 15:29:47 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Order Settled At']
+[INFO] 04-09-2023 15:29:47 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Order Settled At']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:47 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Order Settled At']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:47 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Order Settled At']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:47 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Rejected At']
+[INFO] 04-09-2023 15:29:47 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Rejected At']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:47 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Rejected At']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:47 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Rejected At']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:47 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Settlment Date']
+[INFO] 04-09-2023 15:29:47 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Settlment Date']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:47 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Settlment Date']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:47 [main] [LogUtils] - Verify Equals: 06/09/2023 00:00 CONTAINS 06/09/2023
+[INFO] 04-09-2023 15:29:47 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Completed At']
+[INFO] 04-09-2023 15:29:47 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Completed At']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:48 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Completed At']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:48 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Completed At']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:48 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Total Funds Due']
+[INFO] 04-09-2023 15:29:48 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Total Funds Due']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:48 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Total Funds Due']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:48 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Total Funds Due']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:48 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Offer Rate']
+[INFO] 04-09-2023 15:29:48 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Offer Rate']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:48 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Offer Rate']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:48 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Offer Rate']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:48 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Send Amount']
+[INFO] 04-09-2023 15:29:48 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Send Amount']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:48 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Send Amount']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:48 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Send Amount']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:48 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Receive Amount']
+[INFO] 04-09-2023 15:29:49 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Receive Amount']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:49 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Receive Amount']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:49 [main] [LogUtils] - Verify element visible By.xpath: //p[contains(@class,'MuiTypography-root')][text()='Receive Amount']/following-sibling::div/p
+[INFO] 04-09-2023 15:29:49 [main] [LogUtils] - Verify element visible By.xpath: //a[text()='User Account ID']
+[INFO] 04-09-2023 15:29:57 [main] [LogUtils] - Clicked on the element By.xpath: //a[text()='User Account ID']
+[INFO] 04-09-2023 15:30:01 [main] [LogUtils] - Verify element visible By.xpath: //h5[text()='Profile']
+[INFO] 04-09-2023 15:30:01 [main] [LogUtils] - Verify element visible By.xpath: //h5[text()='Profile']
+[INFO] 04-09-2023 15:30:01 [main] [LogUtils] - Verify element visible By.xpath: //div[@aria-label='currency'][text()='AED']
+[INFO] 04-09-2023 15:30:01 [main] [LogUtils] - Verify element visible By.xpath: //div[.='AED']/following-sibling::div/span[contains(text(),'Available Balance')]
+[INFO] 04-09-2023 15:30:01 [main] [LogUtils] - Verify element visible By.xpath: //div[.='AED']/following-sibling::div/span[contains(text(),'Available Balance')]
+[INFO] 04-09-2023 15:30:01 [main] [LogUtils] - Verify element visible By.xpath: //div[@aria-label='currency'][text()='AED']
+[INFO] 04-09-2023 15:30:01 [main] [LogUtils] - Verify element visible By.xpath: //div[.='AED']/following-sibling::div/span[contains(text(),'Available Balance')]
+[INFO] 04-09-2023 15:30:01 [main] [LogUtils] - Verify element visible By.xpath: //div[.='AED']/following-sibling::div/span[contains(text(),'Available Balance')]
+[INFO] 04-09-2023 15:30:01 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:30:01 [main] [LogUtils] - Verify element visible By.xpath: //div[@aria-label='currency'][text()='AED']
+[INFO] 04-09-2023 15:30:02 [main] [LogUtils] - Verify element visible By.xpath: //div[.='AUD']/following-sibling::div/span[contains(text(),'Available Balance')]
+[INFO] 04-09-2023 15:30:02 [main] [LogUtils] - Verify element visible By.xpath: //div[.='AUD']/following-sibling::div/span[contains(text(),'Available Balance')]
+[INFO] 04-09-2023 15:30:02 [main] [LogUtils] - Verify element visible By.xpath: //div[@aria-label='currency'][text()='AED']
+[INFO] 04-09-2023 15:30:02 [main] [LogUtils] - Verify element visible By.xpath: //div[.='AUD']/following-sibling::div/span[contains(text(),'Available Balance')]
+[INFO] 04-09-2023 15:30:02 [main] [LogUtils] - Verify element visible By.xpath: //div[.='AUD']/following-sibling::div/span[contains(text(),'Available Balance')]
+[INFO] 04-09-2023 15:30:02 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:30:12 [main] [LogUtils] - Open URL: https://corporate-dev.hubpay.ae/auth/signin
+[INFO] 04-09-2023 15:30:12 [main] [LogUtils] - Verify element visible By.cssSelector: input[name='username']
+[INFO] 04-09-2023 15:30:13 [main] [LogUtils] - Set text sreekanth@hubpay.ae on By.cssSelector: input[name='username']
+[INFO] 04-09-2023 15:30:14 [main] [LogUtils] - Verify element visible By.cssSelector: input[name='password']
+[INFO] 04-09-2023 15:30:14 [main] [LogUtils] - Set text Passhub@1 on By.cssSelector: input[name='password']
+[INFO] 04-09-2023 15:30:16 [main] [LogUtils] - Click on element with JS: By.xpath: //button[text()='Next']
+[INFO] 04-09-2023 15:30:21 [main] [LogUtils] - Verify element visible By.xpath: //li[contains(.,'Sign out')]
+[INFO] 04-09-2023 15:30:25 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Dashboard']
+[INFO] 04-09-2023 15:30:25 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Dashboard']
+[INFO] 04-09-2023 15:30:27 [main] [LogUtils] - Verify element visible By.xpath: //p[text()='Available funds']/following-sibling::p[contains(text(),'AED')]
+[INFO] 04-09-2023 15:30:27 [main] [LogUtils] - Verify element visible By.xpath: //p[text()='Available funds']/following-sibling::p[contains(text(),'AED')]
+[INFO] 04-09-2023 15:30:27 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:30:27 [main] [LogUtils] - Verify element visible By.xpath: //p[text()='Available funds']/following-sibling::p[contains(text(),'AUD')]
+[INFO] 04-09-2023 15:30:27 [main] [LogUtils] - Verify element visible By.xpath: //p[text()='Available funds']/following-sibling::p[contains(text(),'AUD')]
+[INFO] 04-09-2023 15:30:27 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:30:28 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Transactions']
+[INFO] 04-09-2023 15:30:28 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Transactions']
+[INFO] 04-09-2023 15:30:30 [main] [LogUtils] - Verify element visible By.xpath: //td[.='AF-6OR1-GR6E']/parent::tr
+[INFO] 04-09-2023 15:30:30 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:30:30 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:30:30 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:30:30 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:30:30 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:30:30 [main] [LogUtils] - Verify element visible By.xpath: //td[.='AF-6OR1-GR6E']/parent::tr
+[INFO] 04-09-2023 15:30:32 [main] [LogUtils] - Clicked on the element By.xpath: //td[.='AF-6OR1-GR6E']/parent::tr
+[INFO] 04-09-2023 15:30:32 [main] [LogUtils] - Verify element visible By.xpath: //h2[contains(@id,'radix-')]/h1
+[INFO] 04-09-2023 15:30:32 [main] [LogUtils] - Verify element visible By.xpath: //h1[contains(text(),'receipt')]/following-sibling::*
+[INFO] 04-09-2023 15:30:32 [main] [LogUtils] - Verify element visible By.xpath: //h1[contains(text(),'receipt')]/following-sibling::*
+[INFO] 04-09-2023 15:30:32 [main] [LogUtils] - Verify element visible By.xpath: //h1[contains(text(),'receipt')]/following-sibling::*
+[INFO] 04-09-2023 15:30:32 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:30:32 [main] [LogUtils] - Verify element visible By.xpath: //h1[contains(text(),'receipt')]/following-sibling::*
+[INFO] 04-09-2023 15:30:32 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:30:33 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Exchange receipt']/parent::h2/following-sibling::p
+[INFO] 04-09-2023 15:30:33 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Exchange receipt']/parent::h2/following-sibling::p
+[INFO] 04-09-2023 15:30:33 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Exchange receipt']/parent::h2/following-sibling::p
+[INFO] 04-09-2023 15:30:33 [main] [LogUtils] - Verify text of an element [Contains]: true
+[INFO] 04-09-2023 15:30:33 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Exchange receipt']/parent::h2/following-sibling::p
+[INFO] 04-09-2023 15:30:33 [main] [LogUtils] - Verify element visible By.xpath: //h1[text()='Exchange receipt']/parent::h2/following-sibling::p
+[INFO] 04-09-2023 15:30:33 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Settlement due date']/following-sibling::div
+[INFO] 04-09-2023 15:30:33 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Settlement due date']/following-sibling::div
+[INFO] 04-09-2023 15:30:33 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:30:33 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='From']/following-sibling::div
+[INFO] 04-09-2023 15:30:33 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='From']/following-sibling::div
+[INFO] 04-09-2023 15:30:33 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:30:33 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='To']/following-sibling::div
+[INFO] 04-09-2023 15:30:33 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='To']/following-sibling::div
+[INFO] 04-09-2023 15:30:33 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:30:33 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Exchange rate']/following-sibling::div
+[INFO] 04-09-2023 15:30:33 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:30:34 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Transaction reference']/following-sibling::div
+[INFO] 04-09-2023 15:30:34 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Transaction reference']/following-sibling::div
+[INFO] 04-09-2023 15:30:34 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:30:34 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Total funds due']/following-sibling::div
+[INFO] 04-09-2023 15:30:35 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Total funds due']/following-sibling::div
+[INFO] 04-09-2023 15:30:35 [main] [LogUtils] - Verify TRUE: true
+[INFO] 04-09-2023 15:30:35 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Download']
+[INFO] 04-09-2023 15:30:35 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Close']/parent::button
+[INFO] 04-09-2023 15:30:36 [main] [LogUtils] - Clicked on the element By.xpath: //span[text()='Close']/parent::button
+[INFO] 04-09-2023 15:30:50 [main] [LogUtils] - Open URL: https://corporate-dev.hubpay.ae/auth/signin
+[INFO] 04-09-2023 15:30:51 [main] [LogUtils] - Verify element visible By.xpath: //li[contains(.,'Sign out')]
+[INFO] 04-09-2023 15:30:51 [main] [LogUtils] - Clicked on the element By.xpath: //li[contains(.,'Sign out')]
+[INFO] 04-09-2023 15:31:02 [main] [LogUtils] - Verify element visible By.cssSelector: input[name='username']

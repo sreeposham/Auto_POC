@@ -1,0 +1,1 @@
+Get text of element By.xpath: //*[@data-icon='arrowRight']/preceding-sibling::span//div[contains(@class,'items-start')]

@@ -1,0 +1,53 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 1086 s <<< FAILURE! -- in TestSuite
+anhtester.com.runners.OpsTestRunner.runScenario["Verify the end to end flow of International payments with Multiple recipients for CHF corridor", "End to End International payment flow with Multiple Recipients - CHF"](3) -- Time elapsed: 76.49 s <<< FAILURE!
+java.lang.AssertionError: The condition is FALSE. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at anhtester.com.keywords.WebUI.verifyTrue(WebUI.java:1033)
+	at anhtester.com.hubpay.corp.pages.DashboardPage.searchAndVerifyPaymentInTransactionGrid(DashboardPage.java:219)
+	at anhtester.com.hubpay.corp.stepdefinitions.DashboardPageStepDefinition.I_search_verify_payment_for_in_the_Transactions_grid(DashboardPageStepDefinition.java:170)
+	at ✽.I search and verify payment for "BUSINESS" in the Transactions grid(file:///Users/kanthreddy/wip/Hubpay_QAAutomation/src/test/resources/features/InternationalPayments/InternationalPaymentFlow_MultipleRecipients_CHF.feature:48)
+
+anhtester.com.runners.OpsTestRunner.runScenario["Verify the end to end flow of International payments with Multiple recipients for EUR corridor", "End to End International payment flow with Multiple Recipients - EUR"](4) -- Time elapsed: 34.23 s <<< FAILURE!
+java.lang.AssertionError: Element not exist. By.xpath: //div[contains(text(),'Settlement date')]/preceding-sibling::div//select
+	at org.testng.Assert.fail(Assert.java:111)
+	at anhtester.com.keywords.WebUI.waitForElementPresent(WebUI.java:2372)
+	at anhtester.com.keywords.WebUI.waitForElementVisible(WebUI.java:2280)
+	at anhtester.com.hubpay.corp.pages.ExchangePage.selectTenorDateOnExchange(ExchangePage.java:484)
+	at anhtester.com.hubpay.corp.stepdefinitions.ExchangePageStepDefinition.I_select_tenor_for_currency_on_exchange_page(ExchangePageStepDefinition.java:86)
+	at ✽.I select "2 business days" tenor on Exchange page(file:///Users/kanthreddy/wip/Hubpay_QAAutomation/src/test/resources/features/InternationalPayments/InternationalPaymentFlow_MultipleRecipients_EUR.feature:17)
+
+anhtester.com.runners.OpsTestRunner.runScenario["Verify the end to end flow of International payments with Multiple recipients for GBP corridor", "End to End International payment flow with Multiple Recipients - GBP"](5) -- Time elapsed: 76.77 s <<< FAILURE!
+java.lang.AssertionError: The condition is FALSE. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at anhtester.com.keywords.WebUI.verifyTrue(WebUI.java:1033)
+	at anhtester.com.hubpay.corp.pages.DashboardPage.searchAndVerifyPaymentInTransactionGrid(DashboardPage.java:219)
+	at anhtester.com.hubpay.corp.stepdefinitions.DashboardPageStepDefinition.I_search_verify_payment_for_in_the_Transactions_grid(DashboardPageStepDefinition.java:170)
+	at ✽.I search and verify payment for "BUSINESS" in the Transactions grid(file:///Users/kanthreddy/wip/Hubpay_QAAutomation/src/test/resources/features/InternationalPayments/InternationalPaymentFlow_MultipleRecipients_GBP.feature:48)
+
+anhtester.com.runners.OpsTestRunner.runScenario["Verify the end to end flow of International payments with Multiple recipients for NZD corridor", "End to End International payment flow with Multiple Recipients - NZD"](6) -- Time elapsed: 81.05 s <<< FAILURE!
+java.lang.AssertionError: The condition is FALSE. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at anhtester.com.keywords.WebUI.verifyTrue(WebUI.java:1033)
+	at anhtester.com.hubpay.corp.pages.DashboardPage.searchAndVerifyPaymentInTransactionGrid(DashboardPage.java:219)
+	at anhtester.com.hubpay.corp.stepdefinitions.DashboardPageStepDefinition.I_search_verify_payment_for_in_the_Transactions_grid(DashboardPageStepDefinition.java:170)
+	at ✽.I search and verify payment for "BUSINESS" in the Transactions grid(file:///Users/kanthreddy/wip/Hubpay_QAAutomation/src/test/resources/features/InternationalPayments/InternationalPaymentFlow_MultipleRecipients_NZD.feature:48)
+
+anhtester.com.runners.OpsTestRunner.runScenario["Verify the end to end flow of International payments with Multiple recipients for SGD corridor", "End to End International payment flow with Multiple Recipients - SGD"](7) -- Time elapsed: 26.01 s <<< FAILURE!
+java.lang.UnsupportedOperationException: You may not select a disabled option
+	at org.openqa.selenium.support.ui.Select.assertOptionIsEnabled(Select.java:321)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:313)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:119)
+	at anhtester.com.keywords.WebUI.selectOptionByText(WebUI.java:734)
+	at anhtester.com.hubpay.corp.pages.ExchangePage.selectTenorDateOnExchange(ExchangePage.java:485)
+	at anhtester.com.hubpay.corp.stepdefinitions.ExchangePageStepDefinition.I_select_tenor_for_currency_on_exchange_page(ExchangePageStepDefinition.java:86)
+	at ✽.I select "Next business day" tenor on Exchange page(file:///Users/kanthreddy/wip/Hubpay_QAAutomation/src/test/resources/features/InternationalPayments/InternationalPaymentFlow_MultipleRecipients_SGD.feature:17)
+

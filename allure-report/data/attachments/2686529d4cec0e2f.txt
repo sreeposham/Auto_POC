@@ -1,0 +1,1 @@
+Clicked on the element By.xpath: //div[@data-field='reference'][.='AP-O51Z-9G26']/parent::div[@role='row']

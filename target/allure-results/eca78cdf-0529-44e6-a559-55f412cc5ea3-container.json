@@ -1,0 +1,1 @@
+{"uuid":"eca78cdf-0529-44e6-a559-55f412cc5ea3","name":"Suite Cucumber Corporate Feature","children":["9f03ba27-dc88-474c-afeb-34a2b6e61e35"],"befores":[],"afters":[{"name":"afterSuite","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1693923871422,"stop":1693923871423}],"start":1693922786703,"stop":1693923871423}

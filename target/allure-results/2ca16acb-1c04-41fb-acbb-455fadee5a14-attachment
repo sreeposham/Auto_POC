@@ -1,0 +1,1 @@
+Get text of element By.xpath: //span[text()='Recipient name']/following-sibling::div

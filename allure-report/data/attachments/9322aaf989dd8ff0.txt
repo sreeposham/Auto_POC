@@ -1,0 +1,1 @@
+Set text AUTO INTL GBP BUSINESS PROVINCE on By.xpath: //label[text()='Province']/preceding-sibling::input

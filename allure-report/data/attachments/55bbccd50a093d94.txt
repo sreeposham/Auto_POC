@@ -1,0 +1,1 @@
+Clicked on the element By.xpath: (//div[@data-field='mobileNumber'][.='+917989730020']/parent::div[contains(@class,'MuiDataGrid-row')])[1]

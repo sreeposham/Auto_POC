@@ -1,0 +1,1 @@
+Get text of element By.xpath: //div[.='CAD']/following-sibling::div/span[contains(text(),'Available Balance')]

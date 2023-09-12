@@ -1,0 +1,1 @@
+Clicked on the element By.xpath: //td[.='AUTO INTL AUD BUSINESS NAME']/preceding-sibling::td[contains(.,'AP-ZYW9-1YYQ')]/parent::tr[1]

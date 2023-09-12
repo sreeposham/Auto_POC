@@ -1,0 +1,1 @@
+Clear and Fill AUTO INTL CHF BUSINESS NAME on By.xpath: //input[@id='search']

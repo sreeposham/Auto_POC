@@ -1,0 +1,1 @@
+Set text 50.00 on By.xpath: //label[text()='Enter payment amount']/preceding-sibling::input

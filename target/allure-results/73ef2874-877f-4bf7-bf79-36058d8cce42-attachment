@@ -1,0 +1,1 @@
+Set text GBP-INV-INDV-1010 on By.xpath: //label[text()='Invoice/Document ID']/preceding-sibling::input

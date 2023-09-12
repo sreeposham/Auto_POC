@@ -1,0 +1,1 @@
+Set text 1212341234567123 on By.xpath: //label[text()='Account number']/preceding-sibling::input

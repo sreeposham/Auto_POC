@@ -1,0 +1,1 @@
+Clicked on the element By.xpath: (//span[text()='Transactions'][contains(@class,'MuiListItemText-primary')]/ancestor::a)[1]

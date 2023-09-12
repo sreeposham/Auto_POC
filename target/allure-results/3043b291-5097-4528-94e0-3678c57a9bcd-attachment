@@ -1,0 +1,1 @@
+Set text CHFINV1234 on By.xpath: //label[text()='Invoice/Document ID']/preceding-sibling::input

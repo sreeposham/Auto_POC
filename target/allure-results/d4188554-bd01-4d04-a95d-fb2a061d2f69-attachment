@@ -1,0 +1,1 @@
+Set text AUTO INTL CAD INDIVIDUAL NAME on By.xpath: //label[text()='Full legal name']/preceding-sibling::input

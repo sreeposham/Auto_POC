@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite Cucumber Corporate Feature">
+    <test name="Test Cucumber Corporate Feature">
+        <parameter name="BROWSER" value="chrome"/>
+        <classes>
+            <class name="anhtester.com.runners.OpsTestRunner"/>
+<!--            <class name="anhtester.com.runners.SigninCRMTestRunner"/>-->
+        </classes>
+    </test>
+</suite>

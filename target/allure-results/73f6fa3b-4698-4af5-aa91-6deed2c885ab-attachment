@@ -1,0 +1,1 @@
+Set text GB80LOYD30963422111100 on By.xpath: //label[text()='IBAN']/preceding-sibling::input

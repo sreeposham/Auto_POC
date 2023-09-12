@@ -1,0 +1,197 @@
+<html>
+<head>
+<title>TestNG:  Test Cucumber Corporate Feature</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test Cucumber Corporate Feature</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/5/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 05 19:36:26 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>1084 seconds (1084651 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='anhtester.com.runners.OpsTestRunner.runScenario()'><b>runScenario</b><br>Test class: anhtester.com.runners.OpsTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the end to end flow of International payments with Multiple recipients for EUR corridor", "End to End International payment flow with Multiple Recipients - EUR"</td>
+<td><div><pre>java.lang.AssertionError: Element not exist. By.xpath: //div[contains(text(),&apos;Settlement date&apos;)]/preceding-sibling::div//select
+	at anhtester.com.keywords.WebUI.waitForElementPresent(WebUI.java:2372)
+	at anhtester.com.keywords.WebUI.waitForElementVisible(WebUI.java:2280)
+	at anhtester.com.hubpay.corp.pages.ExchangePage.selectTenorDateOnExchange(ExchangePage.java:484)
+	at anhtester.com.hubpay.corp.stepdefinitions.ExchangePageStepDefinition.I_select_tenor_for_currency_on_exchange_page(ExchangePageStepDefinition.java:86)
+	at ✽.I select &quot;2 business days&quot; tenor on Exchange page(file:///Users/kanthreddy/wip/Hubpay_QAAutomation/src/test/resources/features/InternationalPayments/InternationalPaymentFlow_MultipleRecipients_EUR.feature:17)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace184688945", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace184688945'><pre>java.lang.AssertionError: Element not exist. By.xpath: //div[contains(text(),&apos;Settlement date&apos;)]/preceding-sibling::div//select
+	at org.testng.Assert.fail(Assert.java:111)
+	at anhtester.com.keywords.WebUI.waitForElementPresent(WebUI.java:2372)
+	at anhtester.com.keywords.WebUI.waitForElementVisible(WebUI.java:2280)
+	at anhtester.com.hubpay.corp.pages.ExchangePage.selectTenorDateOnExchange(ExchangePage.java:484)
+	at anhtester.com.hubpay.corp.stepdefinitions.ExchangePageStepDefinition.I_select_tenor_for_currency_on_exchange_page(ExchangePageStepDefinition.java:86)
+	at ✽.I select &quot;2 business days&quot; tenor on Exchange page(file:///Users/kanthreddy/wip/Hubpay_QAAutomation/src/test/resources/features/InternationalPayments/InternationalPaymentFlow_MultipleRecipients_EUR.feature:17)
+</pre></div></td>
+<td>34</td>
+<td>anhtester.com.runners.OpsTestRunner@7fbd3e75</td></tr>
+<tr>
+<td title='anhtester.com.runners.OpsTestRunner.runScenario()'><b>runScenario</b><br>Test class: anhtester.com.runners.OpsTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the end to end flow of International payments with Multiple recipients for SGD corridor", "End to End International payment flow with Multiple Recipients - SGD"</td>
+<td><div><pre>java.lang.UnsupportedOperationException: You may not select a disabled option
+	at org.openqa.selenium.support.ui.Select.assertOptionIsEnabled(Select.java:321)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:313)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:119)
+	at anhtester.com.keywords.WebUI.selectOptionByText(WebUI.java:734)
+	at anhtester.com.hubpay.corp.pages.ExchangePage.selectTenorDateOnExchange(ExchangePage.java:485)
+	at anhtester.com.hubpay.corp.stepdefinitions.ExchangePageStepDefinition.I_select_tenor_for_currency_on_exchange_page(ExchangePageStepDefinition.java:86)
+	at ✽.I select &quot;Next business day&quot; tenor on Exchange page(file:///Users/kanthreddy/wip/Hubpay_QAAutomation/src/test/resources/features/InternationalPayments/InternationalPaymentFlow_MultipleRecipients_SGD.feature:17)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1499383597", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1499383597'><pre>java.lang.UnsupportedOperationException: You may not select a disabled option
+	at org.openqa.selenium.support.ui.Select.assertOptionIsEnabled(Select.java:321)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:313)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:119)
+	at anhtester.com.keywords.WebUI.selectOptionByText(WebUI.java:734)
+	at anhtester.com.hubpay.corp.pages.ExchangePage.selectTenorDateOnExchange(ExchangePage.java:485)
+	at anhtester.com.hubpay.corp.stepdefinitions.ExchangePageStepDefinition.I_select_tenor_for_currency_on_exchange_page(ExchangePageStepDefinition.java:86)
+	at ✽.I select &quot;Next business day&quot; tenor on Exchange page(file:///Users/kanthreddy/wip/Hubpay_QAAutomation/src/test/resources/features/InternationalPayments/InternationalPaymentFlow_MultipleRecipients_SGD.feature:17)
+</pre></div></td>
+<td>26</td>
+<td>anhtester.com.runners.OpsTestRunner@7fbd3e75</td></tr>
+<tr>
+<td title='anhtester.com.runners.OpsTestRunner.runScenario()'><b>runScenario</b><br>Test class: anhtester.com.runners.OpsTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the end to end flow of International payments with Multiple recipients for CHF corridor", "End to End International payment flow with Multiple Recipients - CHF"</td>
+<td><div><pre>java.lang.AssertionError: The condition is FALSE. expected [true] but found [false]
+	at anhtester.com.keywords.WebUI.verifyTrue(WebUI.java:1033)
+	at anhtester.com.hubpay.corp.pages.DashboardPage.searchAndVerifyPaymentInTransactionGrid(DashboardPage.java:219)
+	at anhtester.com.hubpay.corp.stepdefinitions.DashboardPageStepDefinition.I_search_verify_payment_for_in_the_Transactions_grid(DashboardPageStepDefinition.java:170)
+	at ✽.I search and verify payment for &quot;BUSINESS&quot; in the Transactions grid(file:///Users/kanthreddy/wip/Hubpay_QAAutomation/src/test/resources/features/InternationalPayments/InternationalPaymentFlow_MultipleRecipients_CHF.feature:48)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1210831294", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1210831294'><pre>java.lang.AssertionError: The condition is FALSE. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at anhtester.com.keywords.WebUI.verifyTrue(WebUI.java:1033)
+	at anhtester.com.hubpay.corp.pages.DashboardPage.searchAndVerifyPaymentInTransactionGrid(DashboardPage.java:219)
+	at anhtester.com.hubpay.corp.stepdefinitions.DashboardPageStepDefinition.I_search_verify_payment_for_in_the_Transactions_grid(DashboardPageStepDefinition.java:170)
+	at ✽.I search and verify payment for &quot;BUSINESS&quot; in the Transactions grid(file:///Users/kanthreddy/wip/Hubpay_QAAutomation/src/test/resources/features/InternationalPayments/InternationalPaymentFlow_MultipleRecipients_CHF.feature:48)
+</pre></div></td>
+<td>76</td>
+<td>anhtester.com.runners.OpsTestRunner@7fbd3e75</td></tr>
+<tr>
+<td title='anhtester.com.runners.OpsTestRunner.runScenario()'><b>runScenario</b><br>Test class: anhtester.com.runners.OpsTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the end to end flow of International payments with Multiple recipients for NZD corridor", "End to End International payment flow with Multiple Recipients - NZD"</td>
+<td><div><pre>java.lang.AssertionError: The condition is FALSE. expected [true] but found [false]
+	at anhtester.com.keywords.WebUI.verifyTrue(WebUI.java:1033)
+	at anhtester.com.hubpay.corp.pages.DashboardPage.searchAndVerifyPaymentInTransactionGrid(DashboardPage.java:219)
+	at anhtester.com.hubpay.corp.stepdefinitions.DashboardPageStepDefinition.I_search_verify_payment_for_in_the_Transactions_grid(DashboardPageStepDefinition.java:170)
+	at ✽.I search and verify payment for &quot;BUSINESS&quot; in the Transactions grid(file:///Users/kanthreddy/wip/Hubpay_QAAutomation/src/test/resources/features/InternationalPayments/InternationalPaymentFlow_MultipleRecipients_NZD.feature:48)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1516504591", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1516504591'><pre>java.lang.AssertionError: The condition is FALSE. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at anhtester.com.keywords.WebUI.verifyTrue(WebUI.java:1033)
+	at anhtester.com.hubpay.corp.pages.DashboardPage.searchAndVerifyPaymentInTransactionGrid(DashboardPage.java:219)
+	at anhtester.com.hubpay.corp.stepdefinitions.DashboardPageStepDefinition.I_search_verify_payment_for_in_the_Transactions_grid(DashboardPageStepDefinition.java:170)
+	at ✽.I search and verify payment for &quot;BUSINESS&quot; in the Transactions grid(file:///Users/kanthreddy/wip/Hubpay_QAAutomation/src/test/resources/features/InternationalPayments/InternationalPaymentFlow_MultipleRecipients_NZD.feature:48)
+</pre></div></td>
+<td>81</td>
+<td>anhtester.com.runners.OpsTestRunner@7fbd3e75</td></tr>
+<tr>
+<td title='anhtester.com.runners.OpsTestRunner.runScenario()'><b>runScenario</b><br>Test class: anhtester.com.runners.OpsTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the end to end flow of International payments with Multiple recipients for GBP corridor", "End to End International payment flow with Multiple Recipients - GBP"</td>
+<td><div><pre>java.lang.AssertionError: The condition is FALSE. expected [true] but found [false]
+	at anhtester.com.keywords.WebUI.verifyTrue(WebUI.java:1033)
+	at anhtester.com.hubpay.corp.pages.DashboardPage.searchAndVerifyPaymentInTransactionGrid(DashboardPage.java:219)
+	at anhtester.com.hubpay.corp.stepdefinitions.DashboardPageStepDefinition.I_search_verify_payment_for_in_the_Transactions_grid(DashboardPageStepDefinition.java:170)
+	at ✽.I search and verify payment for &quot;BUSINESS&quot; in the Transactions grid(file:///Users/kanthreddy/wip/Hubpay_QAAutomation/src/test/resources/features/InternationalPayments/InternationalPaymentFlow_MultipleRecipients_GBP.feature:48)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1238908421", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1238908421'><pre>java.lang.AssertionError: The condition is FALSE. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at anhtester.com.keywords.WebUI.verifyTrue(WebUI.java:1033)
+	at anhtester.com.hubpay.corp.pages.DashboardPage.searchAndVerifyPaymentInTransactionGrid(DashboardPage.java:219)
+	at anhtester.com.hubpay.corp.stepdefinitions.DashboardPageStepDefinition.I_search_verify_payment_for_in_the_Transactions_grid(DashboardPageStepDefinition.java:170)
+	at ✽.I search and verify payment for &quot;BUSINESS&quot; in the Transactions grid(file:///Users/kanthreddy/wip/Hubpay_QAAutomation/src/test/resources/features/InternationalPayments/InternationalPaymentFlow_MultipleRecipients_GBP.feature:48)
+</pre></div></td>
+<td>76</td>
+<td>anhtester.com.runners.OpsTestRunner@7fbd3e75</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='anhtester.com.runners.OpsTestRunner.runScenario()'><b>runScenario</b><br>Test class: anhtester.com.runners.OpsTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the end to end flow of International payments with Multiple recipients for CAD corridor", "End to End International payment flow with Multiple Recipients - CAD"</td>
+<td></td>
+<td>392</td>
+<td>anhtester.com.runners.OpsTestRunner@7fbd3e75</td></tr>
+<tr>
+<td title='anhtester.com.runners.OpsTestRunner.runScenario()'><b>runScenario</b><br>Test class: anhtester.com.runners.OpsTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the end to end flow of International payments with Multiple recipients for AUD corridor", "End to End International payment flow with Multiple Recipients - AUD"</td>
+<td></td>
+<td>388</td>
+<td>anhtester.com.runners.OpsTestRunner@7fbd3e75</td></tr>
+</table><p>
+</body>
+</html>

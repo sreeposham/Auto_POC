@@ -1,0 +1,1 @@
+Set text AUTO INTL AUD INDV PROVINCE on By.xpath: //label[text()='Province']/preceding-sibling::input

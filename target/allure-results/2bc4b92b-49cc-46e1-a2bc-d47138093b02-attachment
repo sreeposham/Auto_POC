@@ -1,0 +1,1 @@
+Set text CADINV1234 on By.xpath: //label[text()='Invoice/Document ID']/preceding-sibling::input
